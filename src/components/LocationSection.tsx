@@ -20,7 +20,7 @@ const LocationSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-3">
-          Conveniently located in Bophut near Fisherman's Village, Cherish Samui
+          Located in Bophut, just 11 km from Fisherman's Village (a quick 15-minute drive), Cherish Samui
           is one of the most accessible and scenic beachfront restaurants in Koh
           Samui. Whether you're staying in Chaweng, Lamai, or Maenam, our
           restaurant is an easy drive or taxi ride away — and well worth the trip.
@@ -65,7 +65,7 @@ const LocationSection = () => (
               <h3 className="font-heading text-lg mb-1">Address</h3>
               <p className="font-body text-sm text-muted-foreground">
                 Bophut, Koh Samui, Surat Thani 84320, Thailand<br />
-                Near Fisherman's Village
+                11 km from Fisherman's Village (approx. 15-minute drive)
               </p>
             </div>
           </div>

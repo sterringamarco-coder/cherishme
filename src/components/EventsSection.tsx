@@ -51,7 +51,7 @@ const EventsSection = () => (
         </p>
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
           Whether you're planning an intimate dinner for two or a lively beach
-          party for thirty, our Bophut beachfront location near Fisherman's Village
+          party for thirty, our Bophut beachfront location — just 11 km from Fisherman's Village —
           offers the most atmospheric and versatile event space on the island. We
           handle every detail — from table styling and floral arrangements to
           custom menus and champagne toasts — so you can focus on making memories.

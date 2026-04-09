@@ -36,7 +36,7 @@ const AboutSection = () => (
           </h2>
           <div className="divider-gold mb-6 !mx-0" />
           <p className="font-body text-sm text-foreground/80 leading-relaxed mb-4">
-            Located in Bophut near Fisherman's Village, Cherish Samui combines
+            Located in Bophut, a scenic 15-minute drive from Fisherman's Village, Cherish Samui combines
             the best of Thai cuisine, fresh seafood, and international flavors
             in a stunning beachfront setting. Born from a passion for exceptional
             food and the island's natural beauty, our restaurant was created to
