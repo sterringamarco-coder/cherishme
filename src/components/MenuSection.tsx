@@ -1,9 +1,15 @@
 import { motion } from "framer-motion";
+import menuStarters from "@/assets/menu-starters.jpg";
+import menuMains from "@/assets/menu-mains.jpg";
+import menuSeafood from "@/assets/menu-seafood.jpg";
+import menuDrinks from "@/assets/menu-drinks.jpg";
 
 const menuCategories = [
   {
     title: "Starters",
     desc: "Fresh Thai-inspired starters made with local ingredients",
+    image: menuStarters,
+    alt: "Thai starters spring rolls tom yum soup Koh Samui restaurant",
     items: [
       { name: "Spring Rolls", desc: "Crispy vegetable spring rolls with sweet chili dipping sauce", price: "฿160" },
       { name: "Tom Yum Goong", desc: "Classic spicy Thai shrimp soup with lemongrass and kaffir lime", price: "฿220" },
@@ -14,6 +20,8 @@ const menuCategories = [
   {
     title: "Main Courses",
     desc: "Authentic Thai flavors & fresh seafood in Koh Samui",
+    image: menuMains,
+    alt: "Grilled sea bass fillet fine dining Koh Samui beachfront restaurant",
     items: [
       { name: "Grilled Sea Bass Fillet", desc: "Grilled white snapper fillet, grilled vegetables, mashed potato with white wine cream sauce", price: "฿420" },
       { name: "Deep Water Salmon", desc: "Grilled Norwegian salmon, sautéed vegetables, spinach, cherry tomatoes with dill cream", price: "฿450" },
@@ -25,6 +33,8 @@ const menuCategories = [
   {
     title: "Seafood Specialties",
     desc: "Best seafood restaurant experience in Koh Samui — grilled seafood by the beach",
+    image: menuSeafood,
+    alt: "Seafood platter grilled prawns snapper lobster beachfront Koh Samui",
     items: [
       { name: "Grilled Tiger Prawns", desc: "Jumbo tiger prawns grilled with garlic butter and fresh herbs", price: "฿520" },
       { name: "Whole Grilled Snapper", desc: "Locally caught snapper grilled whole with Thai herbs and spicy lime dressing", price: "฿580" },
@@ -35,6 +45,8 @@ const menuCategories = [
   {
     title: "Drinks & Cocktails",
     desc: "Signature cocktails in Koh Samui — beachfront drinks at sunset",
+    image: menuDrinks,
+    alt: "Tropical cocktails sunset beachfront bar Koh Samui",
     items: [
       { name: "Cherish Sunset", desc: "Our signature cocktail with rum, passion fruit, mango, and a splash of grenadine", price: "฿280" },
       { name: "Thai Basil Mojito", desc: "Fresh mint and Thai basil muddled with lime, sugar, and premium rum", price: "฿260" },
@@ -70,7 +82,7 @@ const MenuSection = () => (
         </p>
       </motion.div>
 
-      <div className="space-y-16">
+      <div className="space-y-20">
         {menuCategories.map((cat, ci) => (
           <motion.div
             key={ci}
@@ -79,6 +91,17 @@ const MenuSection = () => (
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
+            <div className="rounded-sm overflow-hidden mb-8">
+              <img
+                src={cat.image}
+                alt={cat.alt}
+                loading="lazy"
+                width={800}
+                height={544}
+                className="w-full h-48 md:h-64 object-cover"
+              />
+            </div>
+
             <h3 className="font-heading text-2xl md:text-3xl text-center mb-2">{cat.title}</h3>
             <p className="font-body text-xs text-muted-foreground text-center tracking-wide mb-8">
               {cat.desc}
