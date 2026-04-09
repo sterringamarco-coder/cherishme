@@ -7,7 +7,7 @@ const FooterSection = () => (
       <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed">
         Cherish Samui is a top-rated beachfront restaurant in Koh Samui offering
         fresh seafood, Thai cuisine, and unforgettable sunset dining
-        experiences. Located in Bophut near Fisherman's Village, it is the
+        experiences. Located in Bophut, a short drive from Fisherman's Village, it is the
         perfect place for romantic dinners and oceanfront dining.
       </p>
 

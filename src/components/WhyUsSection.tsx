@@ -34,9 +34,9 @@ const features = [
   },
   {
     icon: MapPin,
-    title: "Near Fisherman's Village",
-    desc: "Conveniently located in Bophut, minutes from Fisherman's Village.",
-    detail: "Situated along Bophut's scenic beachfront, we're just a short walk from the famous Fisherman's Village walking street. Combine a visit to the night market with an unforgettable dinner at Cherish Samui.",
+    title: "Close to Fisherman's Village",
+    desc: "Located in Bophut, just 11 km (15-minute drive) from Fisherman's Village.",
+    detail: "Situated along Bophut's scenic beachfront, we're a short and easy drive from the famous Fisherman's Village walking street. Many guests combine a visit to the night market with an unforgettable dinner at Cherish Samui.",
   },
 ];
 
