@@ -1,0 +1,90 @@
+import { motion } from "framer-motion";
+import heroImg from "@/assets/hero-sunset.jpg";
+
+const HeroSection = () => (
+  <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <img
+      src={heroImg}
+      alt="Beachfront sunset dining at Cherish Samui restaurant Koh Samui"
+      className="absolute inset-0 w-full h-full object-cover"
+      width={1920}
+      height={1080}
+      fetchPriority="high"
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
+
+    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="text-primary font-body text-xs tracking-[0.35em] uppercase mb-6"
+      >
+        Bophut · Koh Samui · Thailand
+      </motion.p>
+
+      <motion.h1
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, delay: 0.2 }}
+        className="font-heading text-4xl md:text-6xl lg:text-7xl font-light leading-tight mb-6"
+      >
+        Best Beachfront Restaurant in{" "}
+        <span className="text-gradient-gold">Koh Samui</span> – Cherish Samui
+      </motion.h1>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
+      >
+        Experience unforgettable sunset dining in Koh Samui with fresh seafood,
+        handcrafted cocktails, and breathtaking ocean views.
+      </motion.p>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.7 }}
+        className="font-body text-sm font-light text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
+      >
+        Looking for the best restaurant in Koh Samui? Cherish Samui offers a
+        unique beachfront dining experience where great food meets stunning
+        sunsets. Perfect for romantic dinners, special occasions, and
+        unforgettable evenings by the sea.
+      </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.9 }}
+        className="flex flex-col sm:flex-row gap-4 justify-center"
+      >
+        <a
+          href="#reservation"
+          className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+        >
+          Book a Table
+        </a>
+        <a
+          href="#menu"
+          className="border border-gold text-primary px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/10 transition-colors"
+        >
+          View Menu
+        </a>
+      </motion.div>
+    </div>
+
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1.5, duration: 1 }}
+      className="absolute bottom-8 left-1/2 -translate-x-1/2"
+    >
+      <div className="w-px h-16 bg-gradient-to-b from-primary/60 to-transparent" />
+    </motion.div>
+  </section>
+);
+
+export default HeroSection;
