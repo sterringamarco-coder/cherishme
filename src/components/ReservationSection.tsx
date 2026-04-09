@@ -21,10 +21,20 @@ const ReservationSection = () => (
           Reserve Your <span className="text-gradient-gold">Sunset Dinner</span>
         </h2>
         <div className="divider-gold mb-6" />
-        <p className="font-body text-sm text-muted-foreground leading-relaxed mb-10">
+        <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
           Book your table at Cherish Samui and enjoy one of the best sunset
           dining experiences in Koh Samui. Ideal for romantic dinners,
           celebrations, and unforgettable evenings by the beach.
+        </p>
+        <p className="font-body text-sm text-muted-foreground leading-relaxed mb-10">
+          Our beachfront tables are the most popular seats on the island,
+          especially between 5:30 PM and 7:00 PM when the Koh Samui sunset
+          paints the sky in breathtaking shades of gold and crimson. We
+          recommend booking at least one day in advance to secure your
+          preferred time — particularly during peak season from December
+          to March. For special occasions such as anniversaries, birthdays,
+          or proposals, let us know in your request and our team will
+          prepare something truly memorable.
         </p>
 
         <div className="bg-card border border-gold rounded-sm p-8 md:p-10 text-left space-y-6">

@@ -5,10 +5,10 @@ import foodImg from "@/assets/gallery-food.jpg";
 import cocktailsImg from "@/assets/gallery-cocktails.jpg";
 
 const images = [
-  { src: sunsetImg, alt: "Stunning sunset view from beachfront restaurant Koh Samui", span: "md:col-span-2 md:row-span-2" },
-  { src: romanticImg, alt: "Romantic dinner on the beach Koh Samui", span: "" },
-  { src: foodImg, alt: "Fresh seafood dish at Cherish Samui restaurant Koh Samui", span: "" },
-  { src: cocktailsImg, alt: "Signature tropical cocktails at sunset Koh Samui beach bar", span: "md:col-span-2" },
+  { src: sunsetImg, alt: "Stunning sunset view from beachfront restaurant Koh Samui", span: "md:col-span-2 md:row-span-2", caption: "Golden hour at Cherish Samui — our beachfront tables offer the best sunset views in Koh Samui" },
+  { src: romanticImg, alt: "Romantic dinner on the beach Koh Samui", span: "", caption: "Candlelit dinners on the sand for couples and celebrations" },
+  { src: foodImg, alt: "Fresh seafood dish at Cherish Samui restaurant Koh Samui", span: "", caption: "Daily-catch seafood prepared by our expert Thai chefs" },
+  { src: cocktailsImg, alt: "Signature tropical cocktails at sunset Koh Samui beach bar", span: "md:col-span-2", caption: "Handcrafted tropical cocktails enjoyed beachside at sunset" },
 ];
 
 const GallerySection = () => (
@@ -19,7 +19,7 @@ const GallerySection = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="text-center mb-12"
+        className="text-center mb-6"
       >
         <p className="text-primary font-body text-xs tracking-[0.3em] uppercase mb-4">
           Gallery
@@ -27,7 +27,13 @@ const GallerySection = () => (
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           Discover the <span className="text-gradient-gold">Atmosphere</span>
         </h2>
-        <div className="divider-gold" />
+        <div className="divider-gold mb-6" />
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
+          Step inside the Cherish Samui experience — from breathtaking Koh Samui
+          sunsets and romantic beachfront tables to beautifully plated seafood
+          and signature cocktails. Every evening here is a feast for all the
+          senses, and our gallery captures just a glimpse of what awaits you.
+        </p>
       </motion.div>
 
       <div className="grid md:grid-cols-4 gap-3">
@@ -38,7 +44,7 @@ const GallerySection = () => (
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.6 }}
-            className={`overflow-hidden rounded-sm ${img.span}`}
+            className={`overflow-hidden rounded-sm group relative ${img.span}`}
           >
             <img
               src={img.src}
@@ -46,11 +52,26 @@ const GallerySection = () => (
               loading="lazy"
               width={800}
               height={600}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="font-body text-xs text-foreground/90 leading-relaxed">{img.caption}</p>
+            </div>
           </motion.div>
         ))}
       </div>
+
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        className="text-center mt-8 font-body text-xs text-muted-foreground leading-relaxed max-w-xl mx-auto"
+      >
+        Every photo tells a story of what makes Cherish Samui one of the most
+        photographed beachfront restaurants in Koh Samui. Visit us and create
+        your own unforgettable memories by the sea.
+      </motion.p>
     </div>
   </section>
 );
