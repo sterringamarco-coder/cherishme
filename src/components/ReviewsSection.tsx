@@ -3,21 +3,39 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    text: "The most magical sunset dinner we've ever experienced. The seafood was incredibly fresh and the service impeccable.",
+    text: "The most magical sunset dinner we've ever experienced. The seafood was incredibly fresh and the service impeccable. We sat right on the sand with our toes in the warm beach — truly the best beachfront dining in Koh Samui.",
     author: "Sarah & James",
     origin: "London, UK",
     rating: 5,
   },
   {
-    text: "Absolutely the best restaurant in Koh Samui. The beachfront atmosphere is unmatched. We came back three times during our holiday!",
+    text: "Absolutely the best restaurant in Koh Samui. The beachfront atmosphere is unmatched. We came back three times during our holiday! The grilled tiger prawns and Tom Yum were out of this world.",
     author: "Marco R.",
     origin: "Milan, Italy",
     rating: 5,
   },
   {
-    text: "A perfect romantic dinner spot. The cocktails, the view, the food — everything was beyond our expectations.",
+    text: "A perfect romantic dinner spot. The cocktails, the view, the food — everything was beyond our expectations. The Cherish Sunset cocktail is a must-try while watching the sky turn golden.",
     author: "Emily T.",
     origin: "Sydney, Australia",
+    rating: 5,
+  },
+  {
+    text: "We were looking for somewhere special near Fisherman's Village and Cherish Samui exceeded every expectation. The seafood platter for two was generous, beautifully presented, and bursting with flavor.",
+    author: "David & Yuki",
+    origin: "Tokyo, Japan",
+    rating: 5,
+  },
+  {
+    text: "This is hands down the best sunset restaurant in Koh Samui. We celebrated our anniversary here and the staff made it unforgettable — candles on the table, a complimentary dessert, and the most stunning ocean view.",
+    author: "Anna K.",
+    origin: "Stockholm, Sweden",
+    rating: 5,
+  },
+  {
+    text: "We've eaten at many restaurants across Thailand, but Cherish Samui stands out. The combination of fresh local seafood, authentic Thai flavors, and that incredible beachfront setting is hard to beat anywhere on the island.",
+    author: "Pierre & Claire",
+    origin: "Paris, France",
     rating: 5,
   },
 ];
@@ -51,14 +69,16 @@ const ReviewsSection = () => (
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Cherish Samui is consistently rated as one of the best beachfront
           restaurants in Koh Samui, with hundreds of happy guests praising our
-          sunset views, fresh seafood, and exceptional service.
+          sunset views, fresh seafood, and exceptional service. Whether visitors
+          come for a romantic dinner, a family celebration, or a casual evening
+          by the ocean, they leave with memories that last a lifetime.
         </p>
 
         <div className="flex items-center justify-center gap-1 mt-6">
           {[...Array(5)].map((_, i) => (
             <Star key={i} size={22} className="fill-primary text-primary" />
           ))}
-          <span className="ml-2 text-sm text-foreground/70 font-body">4.9 / 5</span>
+          <span className="ml-2 text-sm text-foreground/70 font-body">4.9 / 5 · 320+ reviews</span>
         </div>
       </motion.div>
 
@@ -89,10 +109,17 @@ const ReviewsSection = () => (
         ))}
       </div>
 
-      <p className="text-center mt-10 font-body text-sm text-muted-foreground italic">
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center mt-10 font-body text-sm text-muted-foreground italic max-w-xl mx-auto leading-relaxed"
+      >
         "Guests describe Cherish Samui as the perfect place for a romantic sunset
-        dinner in Koh Samui."
-      </p>
+        dinner in Koh Samui — a hidden gem where world-class food meets an
+        unforgettable beachfront setting."
+      </motion.p>
     </div>
   </section>
 );

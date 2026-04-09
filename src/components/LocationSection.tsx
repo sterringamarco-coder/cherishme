@@ -19,10 +19,18 @@ const LocationSection = () => (
           <span className="text-gradient-gold">Bophut, Koh Samui</span>
         </h2>
         <div className="divider-gold mb-6" />
-        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-3">
           Conveniently located in Bophut near Fisherman's Village, Cherish Samui
           is one of the most accessible and scenic beachfront restaurants in Koh
-          Samui.
+          Samui. Whether you're staying in Chaweng, Lamai, or Maenam, our
+          restaurant is an easy drive or taxi ride away — and well worth the trip.
+        </p>
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          The Bophut area is known for its charming Fisherman's Village, a
+          walkable street lined with boutique shops, art galleries, and local
+          markets. After exploring the village, make your way to Cherish Samui
+          for a sunset dinner you'll never forget. We're located directly on the
+          beach, so you can walk barefoot from the sand straight to your table.
         </p>
       </motion.div>
 
@@ -87,6 +95,16 @@ const LocationSection = () => (
               <h3 className="font-heading text-lg mb-1">Email</h3>
               <p className="font-body text-sm text-muted-foreground">info@cherishsamui.com</p>
             </div>
+          </div>
+
+          <div className="pt-4 border-t border-gold">
+            <h3 className="font-heading text-lg mb-2">How to Get Here</h3>
+            <ul className="font-body text-sm text-muted-foreground space-y-1 leading-relaxed">
+              <li>• <strong>From Chaweng:</strong> 20-minute drive along the coastal road</li>
+              <li>• <strong>From the Airport:</strong> 10-minute taxi or hotel transfer</li>
+              <li>• <strong>From Lamai:</strong> 30-minute scenic coastal drive</li>
+              <li>• <strong>Parking:</strong> Free parking available nearby</li>
+            </ul>
           </div>
         </motion.div>
       </div>

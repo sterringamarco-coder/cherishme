@@ -38,14 +38,29 @@ const AboutSection = () => (
           <p className="font-body text-sm text-foreground/80 leading-relaxed mb-4">
             Located in Bophut near Fisherman's Village, Cherish Samui combines
             the best of Thai cuisine, fresh seafood, and international flavors
-            in a stunning beachfront setting.
+            in a stunning beachfront setting. Born from a passion for exceptional
+            food and the island's natural beauty, our restaurant was created to
+            offer guests a dining experience unlike any other on Koh Samui.
           </p>
-          <p className="font-body text-sm text-muted-foreground leading-relaxed">
+          <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
             We are more than just a restaurant in Koh Samui — we create
             unforgettable moments. Whether you're enjoying a sunset dinner,
             celebrating a special occasion, or simply looking for the best place
             to eat in Koh Samui, our atmosphere, food, and service make every
             visit special.
+          </p>
+          <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
+            Our head chef draws inspiration from traditional Thai recipes passed
+            down through generations, blending them with modern culinary
+            techniques and the freshest ingredients sourced daily from local
+            fishermen and organic farms across the island. Every dish tells a
+            story of Koh Samui's rich culinary heritage.
+          </p>
+          <p className="font-body text-sm text-muted-foreground leading-relaxed">
+            From the moment you step onto the soft sand and feel the warm
+            ocean breeze, you'll understand why guests return to Cherish Samui
+            year after year. It's not just dinner — it's an experience that
+            captures the magic of beachfront dining in Koh Samui.
           </p>
         </motion.div>
       </div>
