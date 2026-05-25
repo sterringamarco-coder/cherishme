@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ambianceImg from "@/assets/gallery-ambiance.jpg";
+import ambianceImg from "@/assets/cherish-restaurant-evening.jpg";
 
 const AboutSection = () => (
   <section id="about" className="py-24 md:py-32">
