@@ -2,15 +2,28 @@ import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import FooterSection from "@/components/FooterSection";
+import grabLogo from "@/assets/grab-logo.png";
 
 const pages = Array.from({ length: 30 }, (_, i) => `/menu/page-${String(i + 1).padStart(2, "0")}.jpg`);
+
+const GrabButton = () => (
+  <a
+    href="https://food.grab.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Order on Grab"
+    className="inline-block hover:opacity-90 transition-opacity"
+  >
+    <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+  </a>
+);
 
 const Menu = () => (
   <>
     <Navbar />
     <main className="min-h-screen bg-background pt-28 pb-20">
       <div className="container mx-auto px-4 max-w-5xl">
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 flex flex-col items-center gap-4">
           <p className="text-primary font-body text-xs tracking-[0.3em] uppercase mb-4">
             OUR CHEF
           </p>
@@ -25,6 +38,7 @@ const Menu = () => (
             <ArrowLeft className="w-4 h-4" />
             Back to Homepage
           </Link>
+          <GrabButton />
         </div>
 
         <div className="flex flex-col gap-6 md:gap-8">
@@ -47,17 +61,7 @@ const Menu = () => (
             <ArrowLeft className="w-4 h-4" />
             Back to Homepage
           </Link>
-          <a
-            href="https://food.grab.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-body text-sm tracking-[0.2em] uppercase bg-[#00B14F] text-white px-6 py-3 hover:bg-[#009140] transition-colors"
-          >
-            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6zm4 4h-2v-2h2v2zm0-4h-2V7h2v6z"/>
-            </svg>
-            Order on Grab
-          </a>
+          <GrabButton />
         </div>
       </div>
     </main>
