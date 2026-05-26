@@ -71,7 +71,7 @@ const MenuSection = () => (
             to="/menu"
             className="inline-block mt-6 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
-            View OUR CHEF
+            Check out our Menu
           </Link>
         </motion.div>
       </div>
