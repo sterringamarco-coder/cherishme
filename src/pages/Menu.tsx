@@ -8,7 +8,7 @@ const pages = Array.from({ length: 30 }, (_, i) => `/menu/page-${String(i + 1).p
 
 const GrabButton = () => (
   <a
-    href="https://food.grab.com"
+    href="https://r.grab.com/o/J3mQ7jiy"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Order on Grab"
