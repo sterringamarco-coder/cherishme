@@ -3,6 +3,7 @@ import sunsetImg from "@/assets/gallery-sunset.jpg";
 import romanticImg from "@/assets/gallery-romantic.jpg";
 import foodImg from "@/assets/gallery-food.jpg";
 import cocktailsImg from "@/assets/gallery-cocktails.jpg";
+import grabLogo from "@/assets/grab-logo.png";
 
 const images = [
   { src: sunsetImg, alt: "Stunning sunset view from beachfront restaurant Koh Samui", span: "md:col-span-2 md:row-span-2", caption: "Golden hour at Cherish Samui — our beachfront tables offer the best sunset views in Koh Samui" },
