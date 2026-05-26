@@ -14,15 +14,29 @@ const MenuSection = () => (
           Our Menu
         </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
-          Fresh Seafood & Thai Cuisine in{" "}
-          <span className="text-gradient-gold">Koh Samui</span>
+          Welcome to{" "}
+          <span className="text-gradient-gold">Cherish Restaurant</span>
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Our menu is designed to offer one of the best dining experiences in Koh
-          Samui, featuring fresh seafood, authentic Thai dishes, and
-          international favorites. As a leading seafood restaurant in Koh Samui,
-          we focus on quality, flavor, and presentation.
+          At Cherish Restaurant, Chef Somkid brings years of experience from top
+          international hotels to create a unique blend of Thai and Western cuisine.
+        </p>
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mt-4">
+          Our menu is carefully crafted using the finest ingredients, offering
+          everything from flavorful Thai classics to refined Western dishes, along
+          with a selection of tapas and lounge bites—perfect for any moment of the day.
+        </p>
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mt-4">
+          Enjoy your dining experience with our curated wine selection, chosen to
+          perfectly complement every dish.
+        </p>
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mt-4">
+          Whether you’re here for breakfast, lunch, or dinner, we invite you to
+          relax, explore our menu, and enjoy exceptional food in a welcoming atmosphere.
+        </p>
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mt-4">
+          We look forward to serving you.
         </p>
       </motion.div>
 
