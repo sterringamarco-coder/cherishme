@@ -83,9 +83,9 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
             <a
-              key={l.hash}
-              href={`/#${l.hash}`}
-              onClick={(e) => handleNav(e, l.hash)}
+              key={l.path || l.hash}
+              href={l.path || `/#${l.hash}`}
+              onClick={(e) => handleNav(e, l.hash, l.path)}
               className="text-sm font-body font-light tracking-widest uppercase text-foreground/70 hover:text-primary transition-colors duration-300"
             >
               {l.label}
