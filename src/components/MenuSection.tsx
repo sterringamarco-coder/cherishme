@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import chefSomkid from "@/assets/chef-somkid.png";
+
 
 const MenuSection = () => (
   <section id="menu" className="py-24 md:py-32">
@@ -40,6 +42,22 @@ const MenuSection = () => (
         </p>
       </motion.div>
 
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="flex justify-center"
+      >
+        <div className="relative max-w-md">
+          <img
+            src={chefSomkid}
+            alt="Chef Somkid at Cherish Restaurant holding a seafood platter"
+            className="w-full h-auto rounded-md shadow-elegant"
+            loading="lazy"
+          />
+        </div>
+      </motion.div>
     </div>
   </section>
 );
