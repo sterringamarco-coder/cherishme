@@ -73,6 +73,30 @@ const GallerySection = () => (
         photographed beachfront restaurants in Koh Samui. Visit us and create
         your own unforgettable memories by the sea.
       </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10"
+      >
+        <a
+          href="#reservation"
+          className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+        >
+          Book a Table
+        </a>
+        <a
+          href="https://r.grab.com/o/J3mQ7jiy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Order on Grab"
+          className="hover:opacity-90 transition-opacity"
+        >
+          <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+        </a>
+      </motion.div>
     </div>
   </section>
 );
