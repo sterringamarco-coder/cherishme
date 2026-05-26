@@ -82,54 +82,19 @@ const MenuSection = () => (
         </p>
       </motion.div>
 
-      <div className="space-y-20">
-        {menuCategories.map((cat, ci) => (
-          <motion.div
-            key={ci}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="rounded-sm overflow-hidden mb-8">
-              <img
-                src={cat.image}
-                alt={cat.alt}
-                loading="lazy"
-                width={800}
-                height={544}
-                className="w-full h-48 md:h-64 object-cover"
-              />
-            </div>
-
-            <h3 className="font-heading text-2xl md:text-3xl text-center mb-2">{cat.title}</h3>
-            <p className="font-body text-xs text-muted-foreground text-center tracking-wide mb-8">
-              {cat.desc}
-            </p>
-
-            <div className="space-y-4">
-              {cat.items.map((item, ii) => (
-                <div
-                  key={ii}
-                  className="flex items-start justify-between gap-4 py-4 border-b border-gold group"
-                >
-                  <div className="flex-1">
-                    <h4 className="font-heading text-lg group-hover:text-primary transition-colors">
-                      {item.name}
-                    </h4>
-                    <p className="font-body text-xs text-muted-foreground mt-1 leading-relaxed">
-                      {item.desc}
-                    </p>
-                  </div>
-                  <span className="font-heading text-lg text-primary whitespace-nowrap">
-                    {item.price}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        ))}
-      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center"
+      >
+        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          Our menu changes daily based on the freshest catches and seasonal
+          ingredients. Visit us to discover today's selections, or contact us
+          for a preview of what we're serving.
+        </p>
+      </motion.div>
     </div>
   </section>
 );
