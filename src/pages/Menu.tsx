@@ -47,8 +47,11 @@ const Menu = () => (
               key={src}
               src={src}
               alt={`Cherish Restaurant menu page ${i + 1}`}
-              className="w-full h-auto rounded-md shadow-elegant"
-              loading={i < 2 ? "eager" : "lazy"}
+              width="1860"
+              height="1713"
+              className="w-full h-auto rounded-md shadow-elegant [content-visibility:auto] [contain-intrinsic-size:920px_846px]"
+              loading={i === 0 ? "eager" : "lazy"}
+              decoding="async"
             />
           ))}
         </div>
