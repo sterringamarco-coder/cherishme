@@ -3,6 +3,12 @@ import sunsetImg from "@/assets/gallery-sunset.jpg";
 import romanticImg from "@/assets/gallery-romantic.jpg";
 import foodImg from "@/assets/gallery-food.jpg";
 import cocktailsImg from "@/assets/gallery-cocktails.jpg";
+import restaurantNightImg from "@/assets/gallery-restaurant-night.jpg";
+import sunsetLoungerImg from "@/assets/gallery-sunset-lounger.jpg";
+import liveMusicImg from "@/assets/gallery-live-music.jpg";
+import sunsetPalmsImg from "@/assets/gallery-sunset-palms.jpg";
+import sunsetHeartImg from "@/assets/gallery-sunset-heart.jpg";
+import beachDayImg from "@/assets/gallery-beach-day.jpg";
 import grabLogo from "@/assets/grab-logo.png";
 
 const images = [
@@ -10,6 +16,12 @@ const images = [
   { src: romanticImg, alt: "Romantic dinner on the beach Koh Samui", span: "", caption: "Candlelit dinners on the sand for couples and celebrations" },
   { src: foodImg, alt: "Fresh seafood dish at Cherish Samui restaurant Koh Samui", span: "", caption: "Daily-catch seafood prepared by our expert Thai chefs" },
   { src: cocktailsImg, alt: "Signature tropical cocktails at sunset Koh Samui beach bar", span: "md:col-span-2", caption: "Handcrafted tropical cocktails enjoyed beachside at sunset" },
+  { src: sunsetPalmsImg, alt: "Pastel sunset over the sea framed by palm trees at Cherish Samui", span: "md:col-span-2", caption: "Pastel skies and palm silhouettes — dinner with a view" },
+  { src: sunsetHeartImg, alt: "Iconic heart-shaped beach lounger at sunset Cherish Samui", span: "", caption: "Our signature heart lounger — a favorite sunset spot" },
+  { src: restaurantNightImg, alt: "Cherish Samui restaurant at night with warm lanterns and bar", span: "", caption: "Warm evenings under handwoven lanterns" },
+  { src: liveMusicImg, alt: "Thursday live music night with Rommel & Julie at Cherish Samui", span: "", caption: "Thursday Live Music Night with Rommel & Julie · 19:00–21:30" },
+  { src: sunsetLoungerImg, alt: "Sculptural beach lounger silhouetted against the Koh Samui sunset", span: "", caption: "Sculptural loungers built for slow, golden evenings" },
+  { src: beachDayImg, alt: "Cherish Samui beach umbrellas and sun loungers on white sand", span: "md:col-span-2", caption: "Daytime on the sand — Cherish loungers, sea, and shade" },
 ];
 
 const GallerySection = () => (
