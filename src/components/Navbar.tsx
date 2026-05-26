@@ -2,10 +2,12 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const navLinks = [
+type NavLink = { hash: string; label: string; path?: never } | { path: string; label: string; hash?: never };
+
+const navLinks: NavLink[] = [
   { hash: "about", label: "About" },
   { hash: "events", label: "Events" },
-  { hash: "menu", label: "Menu" },
+  { path: "/menu", label: "Menu" },
   { hash: "gallery", label: "Gallery" },
   { hash: "reviews", label: "Reviews" },
   { hash: "location", label: "Location" },
@@ -37,15 +39,21 @@ const Navbar = () => {
     }
   }, [location.pathname, location.hash]);
 
-  const handleNav = (e: React.MouseEvent, hash: string) => {
+  const handleNav = (e: React.MouseEvent, hash?: string, path?: string) => {
     e.preventDefault();
     setOpen(false);
-    if (isHome) {
-      const el = document.getElementById(hash);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.history.replaceState(null, "", `#${hash}`);
-    } else {
-      navigate(`/#${hash}`);
+    if (path) {
+      navigate(path);
+      return;
+    }
+    if (hash) {
+      if (isHome) {
+        const el = document.getElementById(hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.history.replaceState(null, "", `#${hash}`);
+      } else {
+        navigate(`/#${hash}`);
+      }
     }
   };
 
@@ -77,9 +85,9 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
             <a
-              key={l.hash}
-              href={`/#${l.hash}`}
-              onClick={(e) => handleNav(e, l.hash)}
+              key={l.path || l.hash}
+              href={l.path || `/#${l.hash}`}
+              onClick={(e) => handleNav(e, l.hash, l.path)}
               className="text-sm font-body font-light tracking-widest uppercase text-foreground/70 hover:text-primary transition-colors duration-300"
             >
               {l.label}
@@ -107,9 +115,9 @@ const Navbar = () => {
         <div className="md:hidden bg-background/98 backdrop-blur-md border-t border-gold px-6 py-6 space-y-4">
           {navLinks.map((l) => (
             <a
-              key={l.hash}
-              href={`/#${l.hash}`}
-              onClick={(e) => handleNav(e, l.hash)}
+              key={l.path || l.hash}
+              href={l.path || `/#${l.hash}`}
+              onClick={(e) => handleNav(e, l.hash, l.path)}
               className="block text-sm font-body tracking-widest uppercase text-foreground/70 hover:text-primary transition-colors"
             >
               {l.label}
