@@ -69,7 +69,7 @@ const Navbar = () => {
           {navLinks.map((l) => (
             <a
               key={l.href}
-              href={l.href}
+              href={`${prefix}${l.href}`}
               onClick={() => setOpen(false)}
               className="block text-sm font-body tracking-widest uppercase text-foreground/70 hover:text-primary transition-colors"
             >
@@ -77,7 +77,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#reservation"
+            href={`${prefix}#reservation`}
             onClick={() => setOpen(false)}
             className="block text-center bg-gradient-gold text-primary-foreground px-6 py-3 text-xs font-semibold tracking-widest uppercase rounded-sm"
           >
