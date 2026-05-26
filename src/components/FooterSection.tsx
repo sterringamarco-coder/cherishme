@@ -32,15 +32,18 @@ const FooterSection = () => (
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 mt-10">
-        {["About", "Menu", "Gallery", "Reviews", "Location", "FAQ"].map((l) => (
-          <a
-            key={l}
-            href={`#${l.toLowerCase()}`}
-            className="font-body text-xs tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
-          >
-            {l}
-          </a>
-        ))}
+        {["About", "Menu", "Gallery", "Reviews", "Location", "FAQ"].map((l) => {
+          const href = l === "Menu" ? "/menu" : `#${l.toLowerCase()}`;
+          return (
+            <a
+              key={l}
+              href={href}
+              className="font-body text-xs tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors"
+            >
+              {l}
+            </a>
+          );
+        })}
       </div>
 
       <div className="divider-gold mt-10 mb-6" />
