@@ -12,7 +12,7 @@ const Menu = () => (
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="text-center mb-10">
           <p className="text-primary font-body text-xs tracking-[0.3em] uppercase mb-4">
-            Our Menu
+            OUR CHEF
           </p>
           <h1 className="font-heading text-4xl md:text-5xl font-light mb-6">
             <span className="text-gradient-gold">Cherish Restaurant</span>
@@ -23,7 +23,7 @@ const Menu = () => (
             className="inline-flex items-center gap-2 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Our Menu
+            Back to OUR CHEF
           </Link>
         </div>
 
@@ -45,7 +45,7 @@ const Menu = () => (
             className="inline-flex items-center gap-2 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Our Menu
+            Back to OUR CHEF
           </Link>
         </div>
       </div>

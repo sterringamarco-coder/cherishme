@@ -13,7 +13,7 @@ const MenuSection = () => (
         className="text-center mb-12"
       >
         <p className="text-primary font-body text-xs tracking-[0.3em] uppercase mb-4">
-          Our Menu
+          OUR CHEF
         </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           Welcome to{" "}
@@ -71,7 +71,7 @@ const MenuSection = () => (
             to="/menu"
             className="inline-block mt-6 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
-            View Our Menu
+            View OUR CHEF
           </Link>
         </motion.div>
       </div>
