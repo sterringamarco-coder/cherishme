@@ -59,15 +59,10 @@ const ReviewsSection = () => (
         transition={{ duration: 0.7 }}
         className="text-center mb-16"
       >
-        <a
-          href="https://www.google.com/maps/place/Cherish+Restaurant+%26+Bar/@9.5780578,99.9369357,1258m/data=!3m1!1e3!4m8!3m7!1s0x3054f7cc2a2fc193:0x62b641a5bf5c1c2e!8m2!3d9.5780525!4d99.9395106!9m1!1b1!16s%2Fg%2F11pc9vvmdt?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-primary font-body text-xs tracking-[0.3em] uppercase mb-4 hover:underline hover:opacity-80 transition-opacity"
-        >
+        <p className="inline-flex items-center gap-2 text-primary font-body text-xs tracking-[0.3em] uppercase mb-4">
           <MapPin size={14} />
           Loved by Travelers & Locals
-        </a>
+        </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           Top Rated Restaurant in <span className="text-gradient-gold">Koh Samui</span>
         </h2>
@@ -86,6 +81,19 @@ const ReviewsSection = () => (
           ))}
           <span className="ml-2 text-sm text-foreground/70 font-body">4.9 / 5 · 320+ reviews</span>
         </div>
+
+        <p className="font-body text-sm text-muted-foreground mt-4">
+          For up to date review visite Google Review
+        </p>
+        <a
+          href="https://www.google.com/maps/place/Cherish+Restaurant+%26+Bar/@9.5780578,99.9369357,1258m/data=!3m1!1e3!4m8!3m7!1s0x3054f7cc2a2fc193:0x62b641a5bf5c1c2e!8m2!3d9.5780525!4d99.9395106!9m1!1b1!16s%2Fg%2F11pc9vvmdt?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-primary font-body text-sm hover:underline hover:opacity-80 transition-opacity mt-2"
+        >
+          <MapPin size={14} />
+          View on Google Maps
+        </a>
       </motion.div>
 
       <div className="grid md:grid-cols-3 gap-6">
