@@ -37,15 +37,21 @@ const Navbar = () => {
     }
   }, [location.pathname, location.hash]);
 
-  const handleNav = (e: React.MouseEvent, hash: string) => {
+  const handleNav = (e: React.MouseEvent, hash?: string, path?: string) => {
     e.preventDefault();
     setOpen(false);
-    if (isHome) {
-      const el = document.getElementById(hash);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-      window.history.replaceState(null, "", `#${hash}`);
-    } else {
-      navigate(`/#${hash}`);
+    if (path) {
+      navigate(path);
+      return;
+    }
+    if (hash) {
+      if (isHome) {
+        const el = document.getElementById(hash);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+        window.history.replaceState(null, "", `#${hash}`);
+      } else {
+        navigate(`/#${hash}`);
+      }
     }
   };
 
