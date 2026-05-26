@@ -40,19 +40,6 @@ const MenuSection = () => (
         </p>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
-        className="text-center"
-      >
-        <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Our menu changes daily based on the freshest catches and seasonal
-          ingredients. Visit us to discover today's selections, or contact us
-          for a preview of what we're serving.
-        </p>
-      </motion.div>
     </div>
   </section>
 );
