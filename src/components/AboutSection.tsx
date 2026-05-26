@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import ambianceImg from "@/assets/cherish-restaurant-evening.jpg";
+import grabLogo from "@/assets/grab-logo.png";
 
 const AboutSection = () => (
   <section id="about" className="py-24 md:py-32">
