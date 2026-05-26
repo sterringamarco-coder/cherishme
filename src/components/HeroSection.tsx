@@ -68,7 +68,7 @@ const HeroSection = () => (
           Book a Table
         </a>
         <a
-          href="#menu"
+          href="/menu"
           className="border border-gold text-primary px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/10 transition-colors"
         >
           View Menu
