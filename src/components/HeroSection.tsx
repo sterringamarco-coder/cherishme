@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import heroImg from "@/assets/hero-sunset.jpg";
+import grabLogo from "@/assets/grab-logo.png";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -74,6 +75,19 @@ const HeroSection = () => (
           View Menu
         </a>
       </motion.div>
+
+      <motion.a
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 1.1 }}
+        href="https://r.grab.com/o/J3mQ7jiy"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Order on Grab"
+        className="inline-block mt-8 hover:opacity-90 transition-opacity"
+      >
+        <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+      </motion.a>
     </div>
 
     <motion.div
