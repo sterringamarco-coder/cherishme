@@ -2,7 +2,9 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const navLinks = [
+type NavLink = { hash: string; label: string; path?: never } | { path: string; label: string; hash?: never };
+
+const navLinks: NavLink[] = [
   { hash: "about", label: "About" },
   { hash: "events", label: "Events" },
   { path: "/menu", label: "Menu" },
