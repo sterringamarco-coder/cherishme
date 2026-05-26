@@ -113,9 +113,9 @@ const Navbar = () => {
         <div className="md:hidden bg-background/98 backdrop-blur-md border-t border-gold px-6 py-6 space-y-4">
           {navLinks.map((l) => (
             <a
-              key={l.hash}
-              href={`/#${l.hash}`}
-              onClick={(e) => handleNav(e, l.hash)}
+              key={l.path || l.hash}
+              href={l.path || `/#${l.hash}`}
+              onClick={(e) => handleNav(e, l.hash, l.path)}
               className="block text-sm font-body tracking-widest uppercase text-foreground/70 hover:text-primary transition-colors"
             >
               {l.label}
