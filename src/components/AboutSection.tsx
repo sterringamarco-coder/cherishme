@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import ambianceImg from "@/assets/cherish-restaurant-evening.jpg";
+import grabLogo from "@/assets/grab-logo.png";
 
 const AboutSection = () => (
   <section id="about" className="py-24 md:py-32">
@@ -62,6 +64,24 @@ const AboutSection = () => (
             year after year. It's not just dinner — it's an experience that
             captures the magic of beachfront dining in Koh Samui.
           </p>
+
+          <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">
+            <a
+              href="#reservation"
+              className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+            >
+              Book a Table
+            </a>
+            <a
+              href="https://r.grab.com/o/J3mQ7jiy"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Order on Grab"
+              className="hover:opacity-90 transition-opacity"
+            >
+              <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+            </a>
+          </div>
         </motion.div>
       </div>
     </div>

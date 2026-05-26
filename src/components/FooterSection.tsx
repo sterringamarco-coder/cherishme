@@ -1,3 +1,5 @@
+import grabLogo from "@/assets/grab-logo.png";
+
 const FooterSection = () => (
   <footer className="py-16 border-t border-gold">
     <div className="container mx-auto px-4 max-w-5xl text-center">
@@ -11,7 +13,25 @@ const FooterSection = () => (
         perfect place for romantic dinners and oceanfront dining.
       </p>
 
-      <div className="flex flex-wrap justify-center gap-8 mt-8">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+        <a
+          href="#reservation"
+          className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+        >
+          Book a Table
+        </a>
+        <a
+          href="https://r.grab.com/o/J3mQ7jiy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Order on Grab"
+          className="hover:opacity-90 transition-opacity"
+        >
+          <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+        </a>
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-8 mt-10">
         {["About", "Menu", "Gallery", "Reviews", "Location", "FAQ"].map((l) => (
           <a
             key={l}

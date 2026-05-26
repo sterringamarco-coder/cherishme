@@ -3,6 +3,7 @@ import sunsetImg from "@/assets/gallery-sunset.jpg";
 import romanticImg from "@/assets/gallery-romantic.jpg";
 import foodImg from "@/assets/gallery-food.jpg";
 import cocktailsImg from "@/assets/gallery-cocktails.jpg";
+import grabLogo from "@/assets/grab-logo.png";
 
 const images = [
   { src: sunsetImg, alt: "Stunning sunset view from beachfront restaurant Koh Samui", span: "md:col-span-2 md:row-span-2", caption: "Golden hour at Cherish Samui — our beachfront tables offer the best sunset views in Koh Samui" },
@@ -72,6 +73,30 @@ const GallerySection = () => (
         photographed beachfront restaurants in Koh Samui. Visit us and create
         your own unforgettable memories by the sea.
       </motion.p>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10"
+      >
+        <a
+          href="#reservation"
+          className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+        >
+          Book a Table
+        </a>
+        <a
+          href="https://r.grab.com/o/J3mQ7jiy"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Order on Grab"
+          className="hover:opacity-90 transition-opacity"
+        >
+          <img src={grabLogo} alt="Order on Grab" className="h-12 w-auto rounded-md" />
+        </a>
+      </motion.div>
     </div>
   </section>
 );
