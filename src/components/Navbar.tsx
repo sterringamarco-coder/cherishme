@@ -15,6 +15,10 @@ const navLinks = [
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+  const prefix = isHome ? "" : "/";
+  const homeHref = isHome ? "#" : "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
