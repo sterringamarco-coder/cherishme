@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import chefSomkid from "@/assets/chef-somkid.png";
 
 const MenuSection = () => (
@@ -66,6 +67,12 @@ const MenuSection = () => (
           <p className="font-body text-sm text-muted-foreground leading-relaxed mt-4">
             We look forward to serving you.
           </p>
+          <Link
+            to="/menu"
+            className="inline-block mt-6 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
+          >
+            View Our Menu
+          </Link>
         </motion.div>
       </div>
     </div>
