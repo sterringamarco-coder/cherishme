@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const navLinks = [
   { hash: "about", label: "About" },
   { hash: "events", label: "Events" },
-  { hash: "menu", label: "Menu" },
+  { path: "/menu", label: "Menu" },
   { hash: "gallery", label: "Gallery" },
   { hash: "reviews", label: "Reviews" },
   { hash: "location", label: "Location" },
