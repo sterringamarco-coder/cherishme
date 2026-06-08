@@ -50,6 +50,17 @@ const FooterSection = () => (
       <p className="font-body text-xs text-muted-foreground">
         © {new Date().getFullYear()} Cherish Samui. All rights reserved. | Bophut, Koh Samui, Thailand
       </p>
+      <p className="font-body text-xs text-muted-foreground mt-2">
+        Made by{" "}
+        <a
+          href="https://siam.digital.marketing.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:opacity-80 transition-opacity"
+        >
+          Siam.Digital.Marketing.com
+        </a>
+      </p>
     </div>
   </footer>
 );
