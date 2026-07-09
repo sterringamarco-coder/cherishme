@@ -12,7 +12,6 @@ const HeroSection = () => (
       height={1080}
       fetchPriority="high"
     />
-    <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/40 to-background" />
 
     <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
       <motion.p
