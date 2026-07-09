@@ -21,7 +21,7 @@ const reviews = [
     rating: 5,
   },
   {
-    text: "We were looking for somewhere special near Fisherman's Village and Cherish Samui exceeded every expectation. The seafood platter for two was generous, beautifully presented, and bursting with flavor.",
+    text: "We were looking for somewhere special near Fisherman's Village and Cherish Samui Restaurant and Bar exceeded every expectation. The seafood platter for two was generous, beautifully presented, and bursting with flavor.",
     author: "David & Yuki",
     origin: "Tokyo, Japan",
     rating: 5,
@@ -33,7 +33,7 @@ const reviews = [
     rating: 5,
   },
   {
-    text: "We've eaten at many restaurants across Thailand, but Cherish Samui stands out. The combination of fresh local seafood, authentic Thai flavors, and that incredible beachfront setting is hard to beat anywhere on the island.",
+    text: "We've eaten at many restaurants across Thailand, but Cherish Samui Restaurant and Bar stands out. The combination of fresh local seafood, authentic Thai flavors, and that incredible beachfront setting is hard to beat anywhere on the island.",
     author: "Pierre & Claire",
     origin: "Paris, France",
     rating: 5,
@@ -68,7 +68,7 @@ const ReviewsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Cherish Samui is consistently rated as one of the best beachfront
+          Cherish Samui Restaurant and Bar is consistently rated as one of the best beachfront
           restaurants in Koh Samui, with hundreds of happy guests praising our
           sunset views, fresh seafood, and exceptional service. Whether visitors
           come for a romantic dinner, a family celebration, or a casual evening
@@ -130,7 +130,7 @@ const ReviewsSection = () => (
         transition={{ duration: 0.6 }}
         className="text-center mt-10 font-body text-sm text-muted-foreground italic max-w-xl mx-auto leading-relaxed"
       >
-        "Guests describe Cherish Samui as the perfect place for a romantic sunset
+        "Guests describe Cherish Samui Restaurant and Bar as the perfect place for a romantic sunset
         dinner in Koh Samui — a hidden gem where world-class food meets an
         unforgettable beachfront setting."
       </motion.p>
