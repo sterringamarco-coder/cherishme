@@ -33,7 +33,7 @@ const AboutSection = () => (
             Our Story
           </p>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-light mb-6 leading-tight">
-            A Unique Beachfront Dining Experience in{" "}
+            An Unique Beachfront Dining Experience in{" "}
             <span className="text-gradient-gold">Koh Samui</span>
           </h2>
           <div className="divider-gold mb-6 !mx-0" />
