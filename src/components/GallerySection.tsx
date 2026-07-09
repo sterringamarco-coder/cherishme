@@ -5,6 +5,15 @@ import sunsetPalmsImg from "@/assets/gallery-sunset-palms.jpg";
 import sunsetHeartImg from "@/assets/gallery-sunset-heart.jpg";
 import beachDayImg from "@/assets/gallery-beach-day.jpg";
 import grabLogo from "@/assets/grab-logo.png";
+import sunsetPalmDinner from "@/assets/upload-14-54.33_1.jpeg.asset.json";
+import beachTablesBlueHour from "@/assets/upload-14-54.33.jpeg.asset.json";
+import eveningEventPalms from "@/assets/upload-14-54.34_1.jpeg.asset.json";
+import windowDiningGuests from "@/assets/upload-14-54.34.jpeg.asset.json";
+import buffetGuests from "@/assets/upload-14-54.35_1.jpeg.asset.json";
+import buffetTable from "@/assets/upload-14-54.35.jpeg.asset.json";
+import beachsideEvent from "@/assets/upload-14-54.36.jpeg.asset.json";
+import barLanterns from "@/assets/upload-14-54.38_1.jpeg.asset.json";
+import cherishBarSea from "@/assets/upload-14-54.38.jpeg.asset.json";
 
 const images = [
   { src: sunsetPalmsImg, alt: "Pastel sunset over the sea framed by palm trees at Cherish Samui", span: "md:col-span-2 md:row-span-2", caption: "Pastel skies and palm silhouettes — dinner with a view" },
@@ -12,6 +21,15 @@ const images = [
   { src: restaurantNightImg, alt: "Cherish Samui restaurant at night with warm lanterns and bar", span: "", caption: "Warm evenings under handwoven lanterns" },
   { src: sunsetLoungerImg, alt: "Sculptural beach lounger silhouetted against the Koh Samui sunset", span: "md:col-span-2", caption: "Sculptural loungers built for slow, golden evenings" },
   { src: beachDayImg, alt: "Cherish Samui beach umbrellas and sun loungers on white sand", span: "md:col-span-2", caption: "Daytime on the sand — Cherish loungers, sea, and shade" },
+  { src: sunsetPalmDinner.url, alt: "Guests dining at sunset under palm trees at Cherish Samui", span: "md:col-span-2", caption: "Sunset dinners framed by swaying palms" },
+  { src: cherishBarSea.url, alt: "Cherish bar with sea view and warm pendant lights", span: "", caption: "Our beachfront bar — sea views on tap" },
+  { src: barLanterns.url, alt: "Cherish bar interior with lantern lighting and stocked shelves", span: "", caption: "Handcrafted cocktails under warm lanterns" },
+  { src: beachTablesBlueHour.url, alt: "Beachfront tables at blue hour at Cherish Samui", span: "md:col-span-2", caption: "Tables in the sand at blue hour" },
+  { src: eveningEventPalms.url, alt: "Evening celebration on the beach at Cherish Samui", span: "md:col-span-2", caption: "Celebrations under the palms" },
+  { src: windowDiningGuests.url, alt: "Guests dining inside Cherish Samui through lantern-lit windows", span: "", caption: "Warm interiors, glowing windows" },
+  { src: buffetTable.url, alt: "Elegant buffet spread at Cherish Samui", span: "", caption: "Bespoke buffets for private events" },
+  { src: buffetGuests.url, alt: "Guests enjoying a buffet event at Cherish Samui", span: "md:col-span-2", caption: "Private events by the sea" },
+  { src: beachsideEvent.url, alt: "Beachside event with pendant lights and buffet at Cherish Samui", span: "md:col-span-2", caption: "Golden-hour gatherings on the deck" },
 ];
 
 const GallerySection = () => (
