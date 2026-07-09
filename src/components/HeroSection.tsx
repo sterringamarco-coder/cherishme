@@ -63,13 +63,13 @@ const HeroSection = () => (
       >
         <a
           href="#reservation"
-          className="bg-gradient-gold text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:opacity-90 transition-opacity"
+          className="bg-white text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-white/90 transition-colors shadow-sm"
         >
           Book a Table
         </a>
         <a
           href="/menu"
-          className="border border-gold text-primary px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-primary/10 transition-colors"
+          className="bg-white text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-white/90 transition-colors shadow-sm"
         >
           View Menu
         </a>
