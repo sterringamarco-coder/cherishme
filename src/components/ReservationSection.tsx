@@ -51,7 +51,7 @@ const ReservationSection = () => {
           </h2>
           <div className="divider-gold mb-6" />
           <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
-            Book your table at Cherish Samui and enjoy one of the best sunset
+            Book your table at Cherish Samui Restaurant and Bar and enjoy one of the best sunset
             dining experiences in Koh Samui. Ideal for romantic dinners,
             celebrations, and unforgettable evenings by the beach.
           </p>
