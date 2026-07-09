@@ -47,7 +47,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.7 }}
-        className="font-body text-sm font-light text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
+        className="font-body text-sm font-light text-white max-w-xl mx-auto mb-10 leading-relaxed"
       >
         Looking for the best restaurant in Koh Samui? Cherish Samui offers a
         unique beachfront dining experience where great food meets stunning
