@@ -6,7 +6,7 @@ const features = [
     icon: Waves,
     title: "Beachfront Dining",
     desc: "Panoramic ocean views from every table, with the sound of waves as your soundtrack.",
-    detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui sits directly on the sand. Your table is steps from the water's edge, with unobstructed views of the Gulf of Thailand stretching to the horizon.",
+    detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui Restaurant and Bar sits directly on the sand. Your table is steps from the water's edge, with unobstructed views of the Gulf of Thailand stretching to the horizon.",
   },
   {
     icon: Sunset,
@@ -36,7 +36,7 @@ const features = [
     icon: MapPin,
     title: "Close to Fisherman's Village",
     desc: "Located in Bophut, just 11 km (15-minute drive) from Fisherman's Village.",
-    detail: "Situated along Bophut's scenic beachfront, we're a short and easy drive from the famous Fisherman's Village walking street. Many guests combine a visit to the night market with an unforgettable dinner at Cherish Samui.",
+    detail: "Situated along Bophut's scenic beachfront, we're a short and easy drive from the famous Fisherman's Village walking street. Many guests combine a visit to the night market with an unforgettable dinner at Cherish Samui Restaurant and Bar.",
   },
 ];
 
@@ -61,7 +61,7 @@ const WhyUsSection = () => (
           There are many places to eat in Koh Samui, but very few combine
           world-class cuisine, a genuine beachfront location, and an atmosphere
           designed to make every guest feel truly special. Here's what sets
-          Cherish Samui apart from other restaurants on the island.
+          Cherish Samui Restaurant and Bar apart from other restaurants on the island.
         </p>
       </motion.div>
 

@@ -9,11 +9,11 @@ import {
 const faqs = [
   {
     q: "What is the best beachfront restaurant in Koh Samui?",
-    a: "Cherish Samui is widely considered one of the best beachfront restaurants in Koh Samui thanks to its sunset views, fresh seafood, and relaxed atmosphere.",
+    a: "Cherish Samui Restaurant and Bar is widely considered one of the best beachfront restaurants in Koh Samui thanks to its sunset views, fresh seafood, and relaxed atmosphere.",
   },
   {
     q: "Where can I have a romantic dinner in Koh Samui?",
-    a: "Cherish Samui offers one of the most romantic dining experiences in Koh Samui, especially during sunset by the beach.",
+    a: "Cherish Samui Restaurant and Bar offers one of the most romantic dining experiences in Koh Samui, especially during sunset by the beach.",
   },
   {
     q: "Do I need to book in advance?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Is your restaurant near Fisherman's Village?",
-    a: "We are located in Bophut, approximately 11 km from Fisherman's Village — about a 15-minute drive. It's an easy trip, and many guests visit the village before dinner at Cherish Samui.",
+    a: "We are located in Bophut, approximately 11 km from Fisherman's Village — about a 15-minute drive. It's an easy trip, and many guests visit the village before dinner at Cherish Samui Restaurant and Bar.",
   },
   {
     q: "What time is best for sunset dinner in Koh Samui?",

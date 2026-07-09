@@ -50,7 +50,7 @@ const GallerySection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-          Step inside the Cherish Samui experience — from breathtaking Koh Samui
+          Step inside the Cherish Samui Restaurant and Bar experience — from breathtaking Koh Samui
           sunsets and romantic beachfront tables to beautifully plated seafood
           and signature cocktails. Every evening here is a feast for all the
           senses, and our gallery captures just a glimpse of what awaits you.
@@ -89,7 +89,7 @@ const GallerySection = () => (
         transition={{ duration: 0.6, delay: 0.3 }}
         className="text-center mt-8 font-body text-xs text-muted-foreground leading-relaxed max-w-xl mx-auto"
       >
-        Every photo tells a story of what makes Cherish Samui one of the most
+        Every photo tells a story of what makes Cherish Samui Restaurant and Bar one of the most
         photographed beachfront restaurants in Koh Samui. Visit us and create
         your own unforgettable memories by the sea.
       </motion.p>
