@@ -17,7 +17,7 @@ const MenuSection = () => (
         </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           Welcome to{" "}
-          <span className="text-gradient-gold">Cherish Restaurant</span>
+          <span className="text-gradient-gold">Cherish Restaurant & Bar</span>
         </h2>
         <div className="divider-gold mb-6 mx-auto" />
       </motion.div>
