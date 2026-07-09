@@ -54,8 +54,7 @@ const WhyUsSection = () => (
           What Makes Us Special
         </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
-          Why Cherish Samui is One of the Best Restaurants in{" "}
-          <span className="text-gradient-gold">Koh Samui</span>
+          Why customers consider Cherish restaurant en bar as their preferred restaurant
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
