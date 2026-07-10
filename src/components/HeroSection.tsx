@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/cherish-beach-view.png.asset.json";
+import heroImg from "@/assets/cherish-restaurant-samui.png.asset.json";
 import grabLogo from "@/assets/grab-logo.png";
 
 const HeroSection = () => (
