@@ -10,7 +10,8 @@ const HeroSection = () => (
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
       height={1080}
-      fetchPriority="high"
+      // @ts-ignore - React 18 dev warns on camelCase fetchPriority; lowercase is the valid DOM attribute
+      fetchpriority="high"
     />
 
     <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
