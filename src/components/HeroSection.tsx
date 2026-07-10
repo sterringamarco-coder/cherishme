@@ -40,7 +40,7 @@ const HeroSection = () => (
         transition={{ duration: 0.8, delay: 0.5 }}
         className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
       >
-        Experience unforgettable sunset dining in Koh Samui with fresh seafood,
+        Experience unforgettable sunset dining in Koh Samui with beautiful food,
         handcrafted cocktails, and breathtaking ocean views.
       </motion.p>
 
