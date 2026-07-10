@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/cherish-restaurant-samui.png.asset.json";
+import heroImg from "@/assets/cherish-restaurant-samui.png";
 import grabLogo from "@/assets/grab-logo.png";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
     <img
-      src={heroImg.url}
+      src={heroImg}
       alt="Beachfront sunset dining at Cherish Samui restaurant Koh Samui"
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
