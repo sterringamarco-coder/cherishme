@@ -6,7 +6,7 @@ const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
     <img
       src={heroImg}
-      alt="Beachfront sunset dining at Cherish Samui restaurant Koh Samui"
+      alt="Beachfront sunset dining at Cherish Restaurant & Bar restaurant Koh Samui"
       className="absolute inset-0 w-full h-full object-cover"
       width={1920}
       height={1080}
@@ -31,7 +31,7 @@ const HeroSection = () => (
         className="font-heading text-4xl md:text-6xl lg:text-7xl font-light leading-tight mb-6"
       >
         Best Beachfront Restaurant in{" "}
-        <span className="text-gradient-gold">Koh Samui</span> – Cherish Samui Restaurant and Bar
+        <span className="text-gradient-gold">Koh Samui</span> – Cherish Restaurant & Bar Restaurant and Bar
       </motion.h1>
 
       <motion.p
@@ -50,7 +50,7 @@ const HeroSection = () => (
         transition={{ duration: 0.8, delay: 0.7 }}
         className="font-body text-sm font-light text-white max-w-xl mx-auto mb-10 leading-relaxed"
       >
-        Looking for the best restaurant in Koh Samui? Cherish Samui Restaurant and Bar offers a
+        Looking for the best restaurant in Koh Samui? Cherish Restaurant & Bar Restaurant and Bar offers a
         unique beachfront dining experience where great food meets stunning
         sunsets. Perfect for romantic dinners, special occasions, and
         unforgettable evenings by the sea.

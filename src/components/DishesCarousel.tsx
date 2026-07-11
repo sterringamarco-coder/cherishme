@@ -20,7 +20,7 @@ import chickenPlate from "@/assets/dish-chicken-plate.jpg";
 import restaurantEvening from "@/assets/cherish-restaurant-evening.jpg";
 
 const dishes = [
-  { src: restaurantEvening, alt: "Cherish Samui beachfront restaurant at sunset" },
+  { src: restaurantEvening, alt: "Cherish Restaurant & Bar beachfront restaurant at sunset" },
   { src: surfTurf, alt: "Surf and turf steak with shrimp" },
   { src: ribs, alt: "Slow-cooked BBQ pork ribs" },
   { src: scallops, alt: "Seared scallops with citrus glaze" },

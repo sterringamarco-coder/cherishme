@@ -7,7 +7,7 @@ const FooterSection = () => (
         Cherish
       </a>
       <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed">
-        Cherish Samui Restaurant and Bar is a top-rated beachfront restaurant in Koh Samui offering
+        Cherish Restaurant & Bar Restaurant and Bar is a top-rated beachfront restaurant in Koh Samui offering
         fresh seafood, Thai cuisine, and unforgettable sunset dining
         experiences. Located in Bophut, a short drive from Fisherman's Village, it is the
         perfect place for romantic dinners and oceanfront dining.
@@ -48,7 +48,7 @@ const FooterSection = () => (
 
       <div className="divider-gold mt-10 mb-6" />
       <p className="font-body text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Cherish Samui. All rights reserved. | Bophut, Koh Samui, Thailand
+        © {new Date().getFullYear()} Cherish Restaurant & Bar. All rights reserved. | Bophut, Koh Samui, Thailand
       </p>
       <p className="font-body text-xs text-muted-foreground mt-2">
         Made by{" "}

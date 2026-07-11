@@ -10,7 +10,7 @@ const events = [
   {
     icon: Heart,
     title: "Weddings & Proposals",
-    desc: "Say 'I do' or pop the question with the golden Koh Samui sunset as your backdrop. Cherish Samui Restaurant and Bar hosts intimate beach weddings and romantic proposals with candlelit setups, flowers, and bespoke menus crafted for your special moment.",
+    desc: "Say 'I do' or pop the question with the golden Koh Samui sunset as your backdrop. Cherish Restaurant & Bar Restaurant and Bar hosts intimate beach weddings and romantic proposals with candlelit setups, flowers, and bespoke menus crafted for your special moment.",
   },
   {
     icon: Users,
@@ -44,7 +44,7 @@ const EventsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
-          Looking for the ideal event venue in Koh Samui? Cherish Samui Restaurant and Bar transforms
+          Looking for the ideal event venue in Koh Samui? Cherish Restaurant & Bar Restaurant and Bar transforms
           birthdays, weddings, proposals, and private celebrations into extraordinary
           beachfront experiences. With the sound of the waves, a breathtaking sunset,
           and our dedicated events team, every occasion becomes truly unforgettable.
@@ -84,7 +84,7 @@ const EventsSection = () => (
         transition={{ duration: 0.7, delay: 0.3 }}
         className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed text-center mt-12"
       >
-        To enquire about hosting your event at Cherish Samui Restaurant and Bar, please contact us
+        To enquire about hosting your event at Cherish Restaurant & Bar Restaurant and Bar, please contact us
         directly or use our reservation form below. We recommend booking at least
         two weeks in advance for private events, especially during Koh Samui's
         peak season from December to March.
