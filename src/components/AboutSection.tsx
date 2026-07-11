@@ -38,7 +38,7 @@ const AboutSection = () => (
           </h2>
           <div className="divider-gold mb-6 !mx-0" />
           <p className="font-body text-sm text-foreground/80 leading-relaxed mb-4">
-            Located in Bophut, a scenic 15-minute drive from Fisherman's Village, Cherish Samui Restaurant and Bar combines
+            Located in Bophut, a scenic 15-minute drive from Fisherman's Village, Cherish Restaurant & Bar Restaurant and Bar combines
             the best of Thai cuisine, fresh seafood, and international flavors
             in a stunning beachfront setting. Born from a passion for exceptional
             food and the island's natural beauty, our restaurant was created to
@@ -60,7 +60,7 @@ const AboutSection = () => (
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed">
             From the moment you step onto the soft sand and feel the warm
-            ocean breeze, you'll understand why guests return to Cherish Samui Restaurant and Bar
+            ocean breeze, you'll understand why guests return to Cherish Restaurant & Bar Restaurant and Bar
             year after year. It's not just dinner — it's an experience that
             captures the magic of beachfront dining in Koh Samui.
           </p>
