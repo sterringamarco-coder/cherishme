@@ -47,7 +47,7 @@ const AboutSection = () => (
           <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
             We are more than just a restaurant in Koh Samui — we create
             unforgettable moments. Whether you're enjoying a sunset dinner,
-            celebrating a special occasion, or simply looking for the best place
+            celebrating a special occasion, or just looking for the best place
             to eat in Koh Samui, our atmosphere, food, and service make every
             visit special.
           </p>
