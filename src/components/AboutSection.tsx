@@ -60,7 +60,7 @@ const AboutSection = () => (
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed">
             From the moment you step onto the soft sand and feel the warm
-            ocean breeze, you'll understand why guests return to Cherish Restaurant & Bar Restaurant and Bar
+            ocean breeze, you'll understand why guests return to Cherish Samui Restaurant & Bar
             year after year. It's not just dinner — it's an experience that
             captures the magic of beachfront dining in Koh Samui.
           </p>
