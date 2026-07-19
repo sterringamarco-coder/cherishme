@@ -52,10 +52,10 @@ const AboutSection = () => (
             visit special.
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
-            Our head chef draws inspiration from traditional Thai recipes passed
-            down through generations, blending them with modern culinary
+            Our Executive Chef draws inspiration from traditional Thai recipes
+            passed down through generations, blending them with modern culinary
             techniques and the freshest ingredients sourced daily from local
-            fishermen and organic farms across the island. Every dish tells a
+            markets and organic farms across the island. Every dish tells a
             story of Koh Samui's rich culinary heritage.
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed">
