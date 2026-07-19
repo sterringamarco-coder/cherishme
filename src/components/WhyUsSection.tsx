@@ -58,10 +58,10 @@ const WhyUsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-          There are many places to eat in Koh Samui, but very few combine
-          world-class cuisine, a genuine beachfront location, and an atmosphere
-          designed to make every guest feel truly special. Here's what sets
-          Cherish Samui Restaurant and Bar apart from other restaurants on the island.
+          There are many places to dine on Koh Samui, but very few combine
+          world-class cuisine, a genuine beachfront location, and a unique
+          atmosphere designed to make every guest feel truly special. Here's what sets
+          Cherish Samui Restaurant & Bar apart from other restaurants on the island.
         </p>
       </motion.div>
 
