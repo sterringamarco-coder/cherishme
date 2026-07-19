@@ -68,9 +68,9 @@ const ReviewsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Cherish Samui Restaurant and Bar is consistently rated as one of the best beachfront
-          restaurants in Koh Samui, with hundreds of happy guests praising our
-          sunset views, fresh seafood, and exceptional service. Whether visitors
+          Cherish Samui Restaurant & Bar is over many years rated as one of the best beachfront
+          restaurants in Koh Samui, with thousands of happy guests every year praising our
+          sunset views, great selection of Thai and Western menu dishes, and exceptional service. Whether guests
           come for a romantic dinner, a family celebration, or a casual evening
           by the ocean, they leave with memories that last a lifetime.
         </p>
