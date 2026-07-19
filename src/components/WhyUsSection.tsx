@@ -4,7 +4,7 @@ import { Waves, Sunset, Heart, Fish, Wine, MapPin } from "lucide-react";
 const features = [
   {
     icon: Waves,
-    title: "Beachfront Dining",
+    title: "",
     desc: "Panoramic ocean views from every table, with the sound of waves as your soundtrack.",
     detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui Restaurant and Bar sits directly on the sand. Your table is steps from the water's edge, with unobstructed views of the Gulf of Thailand stretching to the horizon.",
   },
@@ -76,7 +76,7 @@ const WhyUsSection = () => (
             className="bg-card border border-gold rounded-sm p-8 text-center hover:shadow-gold transition-shadow duration-500"
           >
             <f.icon size={32} className="mx-auto mb-4 text-primary" strokeWidth={1.2} />
-            <h3 className="font-heading text-xl mb-2">{f.title}</h3>
+            {f.title && <h3 className="font-heading text-xl mb-2">{f.title}</h3>}
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-3">{f.desc}</p>
             <p className="font-body text-xs text-muted-foreground/80 leading-relaxed">{f.detail}</p>
           </motion.div>
