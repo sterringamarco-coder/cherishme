@@ -76,7 +76,7 @@ const WhyUsSection = () => (
             className="bg-card border border-gold rounded-sm p-8 text-center hover:shadow-gold transition-shadow duration-500"
           >
             <f.icon size={32} className="mx-auto mb-4 text-primary" strokeWidth={1.2} />
-            <h3 className="font-heading text-xl mb-2">{f.title}</h3>
+            {f.title && <h3 className="font-heading text-xl mb-2">{f.title}</h3>}
             <p className="font-body text-sm text-muted-foreground leading-relaxed mb-3">{f.desc}</p>
             <p className="font-body text-xs text-muted-foreground/80 leading-relaxed">{f.detail}</p>
           </motion.div>
