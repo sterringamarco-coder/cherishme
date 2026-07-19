@@ -6,7 +6,7 @@ const features = [
     icon: Waves,
     title: "",
     desc: "Panoramic ocean views from every table, with the sound of waves as your soundtrack.",
-    detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui Restaurant and Bar sits directly on the sand. Your table is steps from the water's edge, with unobstructed views of the Gulf of Thailand stretching to the horizon.",
+    detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui Restaurant & Bar sits directly on the sand. Your table is steps from the water's edge, with panoramic views of the Gulf of Thailand stretching to the horizon.",
   },
   {
     icon: Sunset,
