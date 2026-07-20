@@ -22,7 +22,7 @@ const features = [
   },
   {
     icon: Fish,
-    title: "Fresh Local Seafood",
+    title: "Thai & Western Favorites",
     desc: "Very good menu, delicious food for reasonable / affordable prices.",
     detail: "Enjoy a wide selection of freshly prepared Thai and Western dishes, served right on the beach at great value.",
   },
