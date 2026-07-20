@@ -12,7 +12,7 @@ const features = [
     icon: Sunset,
     title: "Best Sunset Spot",
     desc: "Consistently rated as one of the best sunset restaurants in Koh Samui.",
-    detail: "Our west-facing beachfront offers Bophut's most spectacular sunset panorama. Arrive at 5:30 PM to watch the sky transform from golden amber to deep crimson — a nightly show that makes dinner at Cherish truly magical.",
+    detail: "Our west-facing beachfront offers Bangpor’s most spectacular sunset panorama. Arrive at 5:30 PM to watch the sky transform from golden amber to deep crimson — a nightly show that makes dinner at Cherish truly magical.",
   },
   {
     icon: Heart,
