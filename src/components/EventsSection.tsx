@@ -44,9 +44,9 @@ const EventsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
-          Looking for the ideal event venue in Koh Samui? Cherish Restaurant & Bar Restaurant and Bar transforms
-          birthdays, weddings, proposals, and private celebrations into extraordinary
-          beachfront experiences. With the sound of the waves, a breathtaking sunset,
+          Looking for the perfect event venue in Koh Samui? Cherish Samui Restaurant and Bar transforms
+          birthdays, weddings or proposals, and private celebrations into extraordinary
+          beachfront life time experiences. With the sound of the waves, a breathtaking sunset,
           and our dedicated events team, every occasion becomes truly unforgettable.
         </p>
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
