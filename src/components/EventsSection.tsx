@@ -10,7 +10,7 @@ const events = [
   {
     icon: Heart,
     title: "Weddings & Proposals",
-    desc: "Say 'I do' or pop the question with the golden Koh Samui sunset as your backdrop. Cherish Restaurant & Bar Restaurant and Bar hosts intimate beach weddings and romantic proposals with candlelit setups, flowers, and bespoke menus crafted for your special moment.",
+    desc: "Say 'I do' or declare your love with the breathtaking golden Koh Samui sunset as your backdrop. Cherish Samui Restaurant and Bar hosts intimate beach weddings and romantic proposals with candlelit setups, flowers, and bespoke customized menus crafted for your very special moment.",
   },
   {
     icon: Users,
