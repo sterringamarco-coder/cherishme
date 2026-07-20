@@ -40,7 +40,7 @@ const EventsSection = () => (
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           The Perfect Venue for{" "}
           <span className="text-gradient-gold">Events & Celebrations</span>{" "}
-          in Koh Samui
+          on Koh Samui
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
