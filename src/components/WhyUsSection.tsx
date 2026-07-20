@@ -23,8 +23,8 @@ const features = [
   {
     icon: Fish,
     title: "Premium Meat & Seafood Selection",
-    desc: "Very good menu, delicious food for reasonable / affordable prices.",
-    detail: "Enjoy a wide selection of freshly prepared Thai and Western dishes, served right on the beach at great value.",
+    desc: "Every day our Chef prepares the finest selection of premium meats and seafood using only the freshest ingredients. His renowned slow-braised beef, signature Surf & Turf Steak and Thai style grilled Seabass have become guest favourites and remain permanent highlights of his menu, prepared with passion and the finest ingredients.",
+    detail: "",
   },
   {
     icon: Wine,
