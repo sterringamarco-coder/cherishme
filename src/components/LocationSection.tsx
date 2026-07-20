@@ -26,11 +26,7 @@ const LocationSection = () => (
           restaurant is an easy drive or taxi ride away — and well worth the trip.
         </p>
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          The Bophut area is known for its charming Fisherman's Village, a
-          walkable street lined with boutique shops, art galleries, and local
-          markets. After exploring the village, make your way to Cherish Restaurant & Bar
-          for a sunset dinner you'll never forget. We're located directly on the
-          beach, so you can walk barefoot from the sand straight to your table.
+          The Bangpor area is known for one of the most beautiful beaches and stunning sunsets on Koh Samui, just about 10 minutes from the charming Fisherman's Village, a walkable street lined with boutique shops, art galleries, and local markets. After exploring the village, make your way to Cherish Samui for a sunset dinner you'll never forget. We're located directly on the beach, so you can walk barefoot from the sand straight to your table.
         </p>
       </motion.div>
 
