@@ -5,7 +5,7 @@ const events = [
   {
     icon: PartyPopper,
     title: "Birthday Celebrations",
-    desc: "Make your birthday unforgettable with a private beachfront dinner under the stars. Our team arranges personalized decorations, a custom cake, and a dedicated dining area right on the sand — the most magical birthday venue in Koh Samui.",
+    desc: "Make your birthday unforgettable with a private beachfront dinner under the stars. Our team arranges personalized decorations, custom cakes, and a dedicated dining area right on the beach sand — the most magical birthday venue in Koh Samui.",
   },
   {
     icon: Heart,
