@@ -84,10 +84,11 @@ const EventsSection = () => (
         transition={{ duration: 0.7, delay: 0.3 }}
         className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed text-center mt-12"
       >
-        To enquire about hosting your event at Cherish Restaurant & Bar Restaurant and Bar, please contact us
-        directly or use our reservation form below. We recommend booking at least
-        two weeks in advance for private events, especially during Koh Samui's
-        peak season from December to March.
+        Whether you're planning an intimate dinner for two or a lively beach
+        party for thirty, our Bophut beachfront location — just 11 km from Fisherman's Village —
+        offers the most atmospheric and versatile event space on the island. We
+        handle every detail — from table styling and floral arrangements to
+        custom menus and champagne toasts — so you can focus on making memories.
       </motion.p>
     </div>
   </section>
