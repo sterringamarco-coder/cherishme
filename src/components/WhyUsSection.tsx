@@ -23,8 +23,8 @@ const features = [
   {
     icon: Fish,
     title: "Fresh Local Seafood",
-    desc: "Daily catch sourced from local fishermen, prepared by our expert chefs.",
-    detail: "Every morning, our chef visits the local Bophut fish market to hand-select the finest catch of the day. From succulent tiger prawns to whole grilled snapper, our seafood is never frozen — always fresh, always exceptional.",
+    desc: "Very good menu, delicious food for reasonable / affordable prices.",
+    detail: "Enjoy a wide selection of freshly prepared Thai and Western dishes, served right on the beach at great value.",
   },
   {
     icon: Wine,
