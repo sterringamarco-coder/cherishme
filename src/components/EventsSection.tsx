@@ -50,10 +50,11 @@ const EventsSection = () => (
           and our dedicated events team, every occasion becomes truly unforgettable.
         </p>
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-          Looking for the perfect event venue in Koh Samui? Cherish Samui Restaurant and Bar transforms
-          birthdays, weddings or proposals, and private celebrations into extraordinary
-          beachfront life time experiences. With the sound of the waves, a breathtaking sunset,
-          and our dedicated events team, every occasion becomes truly unforgettable.
+          Whether you're planning an intimate dinner for two or a lively beach
+          party for thirty, our Bophut beachfront location — just 11 km from Fisherman's Village —
+          offers the most atmospheric and versatile event space on the island. We
+          handle every detail — from table styling and floral arrangements to
+          custom menus and champagne toasts — so you can focus on making memories.
         </p>
       </motion.div>
 
