@@ -17,7 +17,7 @@ const features = [
   {
     icon: Heart,
     title: "Romantic Atmosphere",
-    desc: "Candlelit tables on the sand — perfect for couples and special celebrations.",
+    desc: "Candlelit tables on the sand with breathtaking sunset views— perfect for couples and special celebrations.",
     detail: "Whether you're celebrating an anniversary, proposing, or enjoying a quiet evening for two, our team creates intimate, personalized moments with candlelight, flowers, and attentive yet discreet service.",
   },
   {
