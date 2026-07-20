@@ -50,10 +50,10 @@ const GallerySection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-          Step inside the Cherish Restaurant & Bar Restaurant and Bar experience — from breathtaking Koh Samui
+          Step inside the Cherish Samui Restaurant and Bar experience — from breathtaking Koh Samui
           sunsets and romantic beachfront tables to beautifully plated seafood
-          and signature cocktails. Every evening here is a feast for all the
-          senses, and our gallery captures just a glimpse of what awaits you.
+          and signature cocktails. Every evening here is a unique experience for all the
+          senses, and our gallery just captures a glimpse of what awaits you when you arrive.
         </p>
       </motion.div>
 
