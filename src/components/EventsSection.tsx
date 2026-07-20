@@ -15,7 +15,7 @@ const events = [
   {
     icon: Users,
     title: "Private Group Dining",
-    desc: "Hosting a family reunion, corporate dinner, or friends' getaway? Our beachfront restaurant in Bophut offers flexible group arrangements with tailored menus, ensuring every guest enjoys a memorable evening by the sea.",
+    desc: "Hosting a family reunion, corporate dinner, or friends' getaway? Our beachfront restaurant in Bangpor offers flexible group arrangements with tailored menus up to 100 guests, ensuring every guest enjoys a memorable evening by the sea.",
   },
   {
     icon: Sparkles,
