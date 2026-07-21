@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
 
@@ -101,6 +101,15 @@ const Navbar = () => {
           >
             Book a Table
           </a>
+          <a
+            href="https://www.instagram.com/cherish.restaurant"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="text-foreground/70 hover:text-[#E4405F] transition-colors"
+          >
+            <Instagram size={20} />
+          </a>
         </div>
 
         <button
@@ -130,6 +139,15 @@ const Navbar = () => {
             className="block text-center bg-gradient-gold text-primary-foreground px-6 py-3 text-xs font-semibold tracking-widest uppercase rounded-sm"
           >
             Book a Table
+          </a>
+          <a
+            href="https://www.instagram.com/cherish.restaurant"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="flex items-center justify-center gap-2 text-sm font-body tracking-widest uppercase text-foreground/70 hover:text-[#E4405F] transition-colors"
+          >
+            <Instagram size={18} /> Instagram
           </a>
         </div>
       )}
