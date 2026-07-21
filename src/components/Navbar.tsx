@@ -75,12 +75,12 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <a
-          href="/"
-          onClick={handleLogo}
-          className="font-heading text-3xl font-light tracking-wide text-primary"
-        >
-          Cherish
+        <a href="/" onClick={handleLogo} className="flex items-center">
+          <img
+            src={logoAsset.url}
+            alt="Cherish Restaurant & Bar"
+            className="h-10 w-auto object-contain"
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
