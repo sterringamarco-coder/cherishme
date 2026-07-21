@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
+import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
 
 type NavLink = { hash: string; label: string; path?: never } | { path: string; label: string; hash?: never };
 
