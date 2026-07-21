@@ -57,7 +57,7 @@ const FooterSection = () => (
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-4xl mx-auto mb-8">
         <div className="flex items-center gap-3 justify-center sm:justify-start">
           <Home className="w-5 h-5 text-primary shrink-0" />
-          <span className="font-body text-sm text-muted-foreground">92/32 Bang Po, Koh Samui</span>
+          <a href="#location" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">92/32 Bang Po, Koh Samui</a>
         </div>
         <div className="flex items-center gap-3 justify-center sm:justify-start">
           <Phone className="w-5 h-5 text-primary shrink-0" />
