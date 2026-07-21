@@ -89,7 +89,7 @@ const LocationSection = () => (
             <Mail size={20} className="text-primary mt-0.5 shrink-0" strokeWidth={1.5} />
             <div>
               <h3 className="font-heading text-lg mb-1">Email</h3>
-              <p className="font-body text-sm text-muted-foreground">info@cherish-samui.com</p>
+              <p className="font-body text-sm text-muted-foreground">info@cherish.restaurant</p>
             </div>
           </div>
 
