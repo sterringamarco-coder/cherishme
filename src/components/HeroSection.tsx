@@ -4,13 +4,13 @@ const heroImg = heroAsset.url;
 import grabLogo from "@/assets/grab-logo.png";
 
 const HeroSection = () => (
-  <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
     <img
       src={heroImg}
       alt="Beachfront sunset dining at Cherish Restaurant & Bar restaurant Koh Samui"
-      className="absolute inset-0 w-full h-full object-cover"
-      width={1920}
-      height={1080}
+      className="absolute inset-0 w-full h-full object-contain object-top"
+      width={1086}
+      height={1449}
       // @ts-ignore - React 18 dev warns on camelCase fetchPriority; lowercase is the valid DOM attribute
       fetchpriority="high"
     />
