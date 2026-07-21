@@ -8,7 +8,7 @@ const HeroSection = () => (
     <img
       src={heroImg}
       alt="Beachfront sunset dining at Cherish Restaurant & Bar restaurant Koh Samui"
-      className="absolute inset-0 w-full h-full object-cover object-top"
+      className="absolute inset-0 w-full h-full object-cover object-bottom"
       width={1086}
       height={1449}
       // @ts-ignore - React 18 dev warns on camelCase fetchPriority; lowercase is the valid DOM attribute
