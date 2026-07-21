@@ -15,6 +15,8 @@ const HeroSection = () => (
       fetchpriority="high"
     />
 
+    <div className="absolute inset-0 bg-black/50 z-0" aria-hidden="true" />
+
     <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
