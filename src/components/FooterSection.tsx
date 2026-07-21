@@ -65,7 +65,7 @@ const FooterSection = () => (
         </div>
         <div className="flex items-center gap-3 w-full justify-center sm:justify-start">
           <Globe className="w-5 h-5 text-primary shrink-0" />
-          <a href="https://www.cherishsamui.com" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">www.cherishsamui.com</a>
+          <a href="https://www.cherish-samui.com" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">www.cherish-samui.com</a>
         </div>
         <div className="flex items-center gap-3 w-full justify-center sm:justify-start">
           <MessageCircle className="w-5 h-5 text-[#00C300] shrink-0" />
