@@ -1,4 +1,4 @@
-import { Home, Phone, Globe, Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Home, Phone, Facebook, Instagram, MessageCircle } from "lucide-react";
 import grabLogo from "@/assets/grab-logo.png";
 import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
 
