@@ -79,10 +79,6 @@ const FooterSection = () => (
           <Facebook className="w-5 h-5 text-[#1877F2] shrink-0" />
           <a href="https://www.facebook.com/CherishRestaurantBar" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">Cherish Restaurant &amp; Bar</a>
         </div>
-        <div className="flex items-center gap-3 justify-center sm:col-start-2">
-          <Instagram className="w-5 h-5 text-[#E4405F] shrink-0" />
-          <a href="https://www.instagram.com/cherish.restaurant" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">cherish.restaurant</a>
-        </div>
       </div>
 
       <div className="divider-gold mb-6" />
