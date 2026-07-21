@@ -8,7 +8,7 @@ const FooterSection = () => (
         <img
           src={logoAsset.url}
           alt="Cherish Restaurant & Bar"
-          className="h-12 w-auto object-contain mx-auto"
+          className="h-24 w-auto object-contain mx-auto"
         />
       </a>
       <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed">
