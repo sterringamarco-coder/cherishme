@@ -1,10 +1,15 @@
 import grabLogo from "@/assets/grab-logo.png";
+import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
 
 const FooterSection = () => (
   <footer className="py-16 border-t border-gold">
     <div className="container mx-auto px-4 max-w-5xl text-center">
-      <a href="#" className="font-heading text-4xl font-light text-primary">
-        Cherish
+      <a href="/" className="inline-block">
+        <img
+          src={logoAsset.url}
+          alt="Cherish Restaurant & Bar"
+          className="h-12 w-auto object-contain mx-auto"
+        />
       </a>
       <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto mt-6 leading-relaxed">
         Cherish Restaurant & Bar Restaurant and Bar is a top-rated beachfront restaurant in Koh Samui offering
