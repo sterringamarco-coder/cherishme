@@ -1,5 +1,5 @@
 import grabLogo from "@/assets/grab-logo.png";
-import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
+import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
 
 const FooterSection = () => (
   <footer className="py-16 border-t border-gold">
