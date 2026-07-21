@@ -74,12 +74,12 @@ const Navbar = () => {
         scrolled ? "bg-background/95 backdrop-blur-md shadow-gold" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between py-4 px-4">
+      <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="/" onClick={handleLogo} className="flex items-center">
           <img
             src={logoAsset.url}
             alt="Cherish Restaurant & Bar"
-            className="h-10 w-auto object-contain"
+            className="h-12 w-auto object-contain"
           />
         </a>
 
