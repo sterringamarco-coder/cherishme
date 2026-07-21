@@ -1,4 +1,4 @@
-import { Home, Phone, Globe, Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Home, Phone, Facebook, Instagram, MessageCircle } from "lucide-react";
 import grabLogo from "@/assets/grab-logo.png";
 import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
 
@@ -64,7 +64,7 @@ const FooterSection = () => (
           <a href="tel:+66802494528" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">080 249 4528</a>
         </div>
         <div className="flex items-center gap-3 justify-center sm:justify-start">
-          <Globe className="w-5 h-5 text-primary shrink-0" />
+          <Instagram className="w-5 h-5 text-[#E4405F] shrink-0" />
           <a href="https://cherish.restaurant" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-muted-foreground hover:text-primary transition-colors">cherish.restaurant</a>
         </div>
         <div className="flex items-center gap-3 justify-center sm:justify-start">
