@@ -7,8 +7,14 @@ const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
     <img
       src={heroImg}
+      alt=""
+      aria-hidden="true"
+      className="absolute inset-0 w-full h-full object-cover object-center scale-105 blur-xl opacity-60"
+    />
+    <img
+      src={heroImg}
       alt="Beachfront sunset dining at Cherish Restaurant & Bar restaurant Koh Samui"
-      className="absolute inset-0 w-full h-full object-cover object-bottom"
+      className="absolute inset-0 w-full h-full object-contain object-center"
       width={1086}
       height={1449}
       // @ts-ignore - React 18 dev warns on camelCase fetchPriority; lowercase is the valid DOM attribute
