@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import heroImg from "@/assets/cherish-restaurant-evening.jpg";
+import heroAsset from "@/assets/cherish-bar-restaurant-2026.jpeg.asset.json";
+const heroImg = heroAsset.url;
 import grabLogo from "@/assets/grab-logo.png";
 
 const HeroSection = () => (
