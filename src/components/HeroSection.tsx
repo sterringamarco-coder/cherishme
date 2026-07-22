@@ -24,7 +24,7 @@ const HeroSection = () => (
 
     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30 z-0" aria-hidden="true" />
 
-    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl [text-shadow:0_2px_12px_rgba(0,0,0,0.5)]">
+    <div className="relative z-10 container mx-auto w-full max-w-5xl px-5 sm:px-8 text-center [text-shadow:0_2px_12px_rgba(0,0,0,0.5)]">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -38,18 +38,18 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
-        className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-tight mb-6 break-words"
+        className="mx-auto mb-6 max-w-4xl font-heading text-3xl font-light leading-[1.08] sm:text-4xl md:text-5xl lg:text-6xl [text-wrap:balance]"
       >
         Best Beachfront Restaurant on{" "}
         <span className="text-gradient-gold">Koh Samui</span> – Cherish Restaurant & Bar Restaurant
       </motion.h1>
 
-      <div className="bg-black/40 backdrop-blur-sm py-8 px-6 rounded-lg inline-block max-w-3xl mx-auto mb-10">
+      <div className="mx-auto mb-8 inline-block w-full max-w-3xl rounded-lg bg-black/40 px-5 py-6 backdrop-blur-sm sm:mb-10 sm:px-8 sm:py-8">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
+          className="mx-auto mb-4 max-w-2xl font-body text-sm font-light leading-relaxed text-foreground/80 sm:text-base md:text-lg [text-wrap:balance]"
         >
           Experience unforgettable sunset dining on Koh Samui with beautiful food,
           handcrafted cocktails, and breathtaking ocean views.
@@ -59,7 +59,7 @@ const HeroSection = () => (
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="font-body text-sm font-light text-white max-w-xl mx-auto leading-relaxed"
+          className="mx-auto max-w-xl font-body text-xs font-light leading-relaxed text-white sm:text-sm [text-wrap:pretty]"
         >
           Looking for the best restaurant on Koh Samui? Cherish Samui Restaurant & Bar offers a
           unique beachfront dining experience where great food meets stunning
