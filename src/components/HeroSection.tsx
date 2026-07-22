@@ -24,7 +24,7 @@ const HeroSection = () => (
 
     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30 z-0" aria-hidden="true" />
 
-    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl [text-shadow:0_2px_12px_rgba(0,0,0,0.5)]">
+    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl [text-shadow:0_2px_12px_rgba(0,0,0,0.5)] bg-black/40 backdrop-blur-sm py-10 px-6 rounded-lg">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
