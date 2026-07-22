@@ -84,7 +84,7 @@ const FooterSection = () => (
 
       <div className="divider-gold mb-6" />
       <p className="font-body text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Cherish Restaurant & Bar. All rights reserved. | Bophut, Koh Samui, Thailand
+        © {new Date().getFullYear()} Cherish Restaurant & Bar. All rights reserved. | Bang Por, Koh Samui, Thailand
       </p>
       <p className="font-body text-xs text-muted-foreground mt-2">
         Made by{" "}

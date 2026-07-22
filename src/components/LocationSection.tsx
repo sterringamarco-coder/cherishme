@@ -16,7 +16,7 @@ const LocationSection = () => (
         </p>
         <h2 className="font-heading text-3xl md:text-5xl font-light mb-6">
           Beachfront Restaurant in{" "}
-          <span className="text-gradient-gold">Bophut, Koh Samui</span>
+          <span className="text-gradient-gold">Bang Por, Koh Samui</span>
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-3">
@@ -39,12 +39,12 @@ const LocationSection = () => (
           className="rounded-sm overflow-hidden aspect-video"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0!2d100.0!3d9.56!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCherish+Samui!5e0!3m2!1sen!2sth!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0!2d99.9395106!3d9.5780525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m1!0s0x3054f7cc2a2fc193%3A0x62b641a5bf5c1c2e!5e0!3m2!1sen!2sth!4v1"
             className="w-full h-full border-0"
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Cherish Restaurant & Bar restaurant location map Bophut Koh Samui"
+            title="Cherish Restaurant & Bar location map Bang Por Koh Samui"
           />
         </motion.div>
 
