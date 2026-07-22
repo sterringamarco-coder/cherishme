@@ -1,13 +1,14 @@
 import { Home, Phone, Facebook, Instagram, MessageCircle } from "lucide-react";
 import grabLogo from "@/assets/grab-logo.png";
 import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
+import { assetUrl } from "@/lib/assetUrl";
 
 const FooterSection = () => (
   <footer className="py-16 border-t border-gold">
     <div className="container mx-auto px-4 max-w-5xl text-center">
       <a href="/" className="inline-block">
         <img
-          src={logoAsset.url}
+          src={assetUrl(logoAsset)}
           alt="Cherish Restaurant & Bar"
           className="h-24 w-auto object-contain mx-auto"
         />

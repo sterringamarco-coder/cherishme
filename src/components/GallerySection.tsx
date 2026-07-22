@@ -14,6 +14,7 @@ import buffetTable from "@/assets/upload-14-54.35.jpeg.asset.json";
 import beachsideEvent from "@/assets/upload-14-54.36.jpeg.asset.json";
 import barLanterns from "@/assets/upload-14-54.38_1.jpeg.asset.json";
 import cherishBarSea from "@/assets/upload-14-54.38.jpeg.asset.json";
+import { assetUrl } from "@/lib/assetUrl";
 
 const images = [
   { src: sunsetPalmsImg, alt: "Pastel sunset over the sea framed by palm trees at Cherish Restaurant & Bar", span: "md:col-span-2 md:row-span-2", caption: "Pastel skies and palm silhouettes — dinner with a view" },
@@ -21,15 +22,15 @@ const images = [
   { src: restaurantNightImg, alt: "Cherish Restaurant & Bar restaurant at night with warm lanterns and bar", span: "", caption: "Warm evenings under handwoven lanterns" },
   { src: sunsetLoungerImg, alt: "Sculptural beach lounger silhouetted against the Koh Samui sunset", span: "md:col-span-2", caption: "Sculptural loungers built for slow, golden evenings" },
   { src: beachDayImg, alt: "Cherish Restaurant & Bar beach umbrellas and sun loungers on white sand", span: "md:col-span-2", caption: "Daytime on the sand — Cherish loungers, sea, and shade" },
-  { src: sunsetPalmDinner.url, alt: "Guests dining at sunset under palm trees at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Sunset dinners framed by swaying palms" },
-  { src: cherishBarSea.url, alt: "Cherish bar with sea view and warm pendant lights", span: "", caption: "Our beachfront bar — sea views on tap" },
-  { src: barLanterns.url, alt: "Cherish bar interior with lantern lighting and stocked shelves", span: "", caption: "Handcrafted cocktails under warm lanterns" },
-  { src: beachTablesBlueHour.url, alt: "Beachfront tables at blue hour at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Tables in the sand at blue hour" },
-  { src: eveningEventPalms.url, alt: "Evening celebration on the beach at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Celebrations under the palms" },
-  { src: windowDiningGuests.url, alt: "Guests dining inside Cherish Restaurant & Bar through lantern-lit windows", span: "", caption: "Warm interiors, glowing windows" },
-  { src: buffetTable.url, alt: "Elegant buffet spread at Cherish Restaurant & Bar", span: "", caption: "Bespoke buffets for private events" },
-  { src: buffetGuests.url, alt: "Guests enjoying a buffet event at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Private events by the sea" },
-  { src: beachsideEvent.url, alt: "Beachside event with pendant lights and buffet at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Golden-hour gatherings on the deck" },
+  { src: assetUrl(sunsetPalmDinner), alt: "Guests dining at sunset under palm trees at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Sunset dinners framed by swaying palms" },
+  { src: assetUrl(cherishBarSea), alt: "Cherish bar with sea view and warm pendant lights", span: "", caption: "Our beachfront bar — sea views on tap" },
+  { src: assetUrl(barLanterns), alt: "Cherish bar interior with lantern lighting and stocked shelves", span: "", caption: "Handcrafted cocktails under warm lanterns" },
+  { src: assetUrl(beachTablesBlueHour), alt: "Beachfront tables at blue hour at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Tables in the sand at blue hour" },
+  { src: assetUrl(eveningEventPalms), alt: "Evening celebration on the beach at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Celebrations under the palms" },
+  { src: assetUrl(windowDiningGuests), alt: "Guests dining inside Cherish Restaurant & Bar through lantern-lit windows", span: "", caption: "Warm interiors, glowing windows" },
+  { src: assetUrl(buffetTable), alt: "Elegant buffet spread at Cherish Restaurant & Bar", span: "", caption: "Bespoke buffets for private events" },
+  { src: assetUrl(buffetGuests), alt: "Guests enjoying a buffet event at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Private events by the sea" },
+  { src: assetUrl(beachsideEvent), alt: "Beachside event with pendant lights and buffet at Cherish Restaurant & Bar", span: "md:col-span-2", caption: "Golden-hour gatherings on the deck" },
 ];
 
 const GallerySection = () => (

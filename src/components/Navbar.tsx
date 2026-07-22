@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Instagram } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
+import { assetUrl } from "@/lib/assetUrl";
 
 type NavLink = { hash: string; label: string; path?: never } | { path: string; label: string; hash?: never };
 
@@ -77,7 +78,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between py-3 px-4">
         <a href="/" onClick={handleLogo} className="flex items-center">
           <img
-            src={logoAsset.url}
+            src={assetUrl(logoAsset)}
             alt="Cherish Restaurant & Bar"
             className="h-12 w-auto object-contain"
           />
