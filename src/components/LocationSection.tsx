@@ -60,7 +60,7 @@ const LocationSection = () => (
             <div>
               <h3 className="font-heading text-lg mb-1">Address</h3>
               <p className="font-body text-sm text-muted-foreground">
-                Bophut, Koh Samui, Surat Thani 84320, Thailand<br />
+                92/32 Bang Po, Koh Samui, Suratthani 84330<br />
                 11 km from Fisherman's Village (approx. 15-minute drive)
               </p>
             </div>
