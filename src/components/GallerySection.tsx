@@ -91,7 +91,7 @@ const GallerySection = () => (
         className="text-center mt-8 font-body text-xs text-muted-foreground leading-relaxed max-w-xl mx-auto"
       >
         Every photo tells a story of what makes Cherish Restaurant & Bar Restaurant and Bar one of the most
-        photographed beachfront restaurants in Koh Samui. Visit us and create
+        photographed beachfront restaurants on Koh Samui. Visit us and create
         your own unforgettable memories by the sea.
       </motion.p>
 

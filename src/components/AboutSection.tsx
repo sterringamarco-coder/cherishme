@@ -45,10 +45,10 @@ const AboutSection = () => (
             offer guests a dining experience unlike any other on Koh Samui.
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
-            We are more than just a restaurant in Koh Samui — we create
+            We are more than just a restaurant on Koh Samui — we create
             unforgettable moments. Whether you're enjoying a sunset dinner,
             celebrating a special occasion, or just looking for the best place
-            to eat in Koh Samui, our atmosphere, food, and service make every
+            to eat on Koh Samui, our atmosphere, food, and service make every
             visit special.
           </p>
           <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
@@ -62,7 +62,7 @@ const AboutSection = () => (
             From the moment you step onto the soft sand and feel the warm
             ocean breeze, you'll understand why guests return to Cherish Samui Restaurant & Bar
             year after year. It's not just dinner — it's an experience that
-            captures the magic of beachfront dining in Koh Samui.
+            captures the magic of beachfront dining on Koh Samui.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-8">

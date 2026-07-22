@@ -51,7 +51,7 @@ const HeroSection = () => (
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
         >
-          Experience unforgettable sunset dining in Koh Samui with beautiful food,
+          Experience unforgettable sunset dining on Koh Samui with beautiful food,
           handcrafted cocktails, and breathtaking ocean views.
         </motion.p>
 
@@ -61,7 +61,7 @@ const HeroSection = () => (
           transition={{ duration: 0.8, delay: 0.7 }}
           className="font-body text-sm font-light text-white max-w-xl mx-auto leading-relaxed"
         >
-          Looking for the best restaurant in Koh Samui? Cherish Samui Restaurant & Bar offers a
+          Looking for the best restaurant on Koh Samui? Cherish Samui Restaurant & Bar offers a
           unique beachfront dining experience where great food meets stunning
           sunsets. Perfect for romantic dinners, special occasions, and
           unforgettable evenings by the sea.

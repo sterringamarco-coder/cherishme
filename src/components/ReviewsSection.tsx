@@ -3,13 +3,13 @@ import { Star, MapPin } from "lucide-react";
 
 const reviews = [
   {
-    text: "The most magical sunset dinner we've ever experienced. The seafood was incredibly fresh and the service impeccable. We sat right on the sand with our toes in the warm beach — truly the best beachfront dining in Koh Samui.",
+    text: "The most magical sunset dinner we've ever experienced. The seafood was incredibly fresh and the service impeccable. We sat right on the sand with our toes in the warm beach — truly the best beachfront dining on Koh Samui.",
     author: "Sarah & James",
     origin: "London, UK",
     rating: 5,
   },
   {
-    text: "Absolutely the best restaurant in Koh Samui. The beachfront atmosphere is unmatched. We came back three times during our holiday! The grilled tiger prawns and Tom Yum were out of this world.",
+    text: "Absolutely the best restaurant on Koh Samui. The beachfront atmosphere is unmatched. We came back three times during our holiday! The grilled tiger prawns and Tom Yum were out of this world.",
     author: "Marco R.",
     origin: "Milan, Italy",
     rating: 5,
@@ -27,7 +27,7 @@ const reviews = [
     rating: 5,
   },
   {
-    text: "This is hands down the best sunset restaurant in Koh Samui. We celebrated our anniversary here and the staff made it unforgettable — candles on the table, a complimentary dessert, and the most stunning ocean view.",
+    text: "This is hands down the best sunset restaurant on Koh Samui. We celebrated our anniversary here and the staff made it unforgettable — candles on the table, a complimentary dessert, and the most stunning ocean view.",
     author: "Anna K.",
     origin: "Stockholm, Sweden",
     rating: 5,
@@ -69,7 +69,7 @@ const ReviewsSection = () => (
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Cherish Samui Restaurant & Bar is over many years rated as one of the best beachfront
-          restaurants in Koh Samui, with thousands of happy guests every year praising our
+          restaurants on Koh Samui, with thousands of happy guests every year praising our
           sunset views, great selection of Thai and Western menu dishes, and exceptional service. Whether guests
           come for a romantic dinner, a family celebration, or a casual evening
           by the ocean, they leave with memories that last a lifetime.
@@ -131,7 +131,7 @@ const ReviewsSection = () => (
         className="text-center mt-10 font-body text-sm text-muted-foreground italic max-w-xl mx-auto leading-relaxed"
       >
         "Guests describe Cherish Samui Restaurant and Bar as the perfect place for a romantic sunset
-        dinner in Koh Samui — a hidden gem where world-class food meets an
+        dinner on Koh Samui — a hidden gem where world-class food meets an
         unforgettable beachfront setting."
       </motion.p>
     </div>
