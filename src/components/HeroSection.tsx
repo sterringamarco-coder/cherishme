@@ -24,7 +24,7 @@ const HeroSection = () => (
 
     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30 z-0" aria-hidden="true" />
 
-    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl [text-shadow:0_2px_12px_rgba(0,0,0,0.5)] bg-black/40 backdrop-blur-sm py-10 px-6 rounded-lg">
+    <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl [text-shadow:0_2px_12px_rgba(0,0,0,0.5)]">
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -44,27 +44,29 @@ const HeroSection = () => (
         <span className="text-gradient-gold">Koh Samui</span> – Cherish Restaurant & Bar Restaurant
       </motion.h1>
 
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
-      >
-        Experience unforgettable sunset dining in Koh Samui with beautiful food,
-        handcrafted cocktails, and breathtaking ocean views.
-      </motion.p>
+      <div className="bg-black/40 backdrop-blur-sm py-8 px-6 rounded-lg inline-block max-w-3xl mx-auto mb-10">
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className="font-body text-base md:text-lg font-light text-foreground/80 max-w-2xl mx-auto mb-4 leading-relaxed"
+        >
+          Experience unforgettable sunset dining in Koh Samui with beautiful food,
+          handcrafted cocktails, and breathtaking ocean views.
+        </motion.p>
 
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.7 }}
-        className="font-body text-sm font-light text-white max-w-xl mx-auto mb-10 leading-relaxed"
-      >
-        Looking for the best restaurant in Koh Samui? Cherish Samui Restaurant & Bar offers a
-        unique beachfront dining experience where great food meets stunning
-        sunsets. Perfect for romantic dinners, special occasions, and
-        unforgettable evenings by the sea.
-      </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
+          className="font-body text-sm font-light text-white max-w-xl mx-auto leading-relaxed"
+        >
+          Looking for the best restaurant in Koh Samui? Cherish Samui Restaurant & Bar offers a
+          unique beachfront dining experience where great food meets stunning
+          sunsets. Perfect for romantic dinners, special occasions, and
+          unforgettable evenings by the sea.
+        </motion.p>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
