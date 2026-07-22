@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Instagram } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
-import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
+import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
 import { assetUrl } from "@/lib/assetUrl";
 
 type NavLink = { hash: string; label: string; path?: never } | { path: string; label: string; hash?: never };

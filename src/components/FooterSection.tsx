@@ -1,6 +1,6 @@
 import { Home, Phone, Facebook, Instagram, MessageCircle } from "lucide-react";
 import grabLogo from "@/assets/grab-logo.png";
-import logoAsset from "@/assets/cherish-logo-white.png.asset.json";
+import logoAsset from "@/assets/cherish-logo-white-new.png.asset.json";
 import { assetUrl } from "@/lib/assetUrl";
 
 const FooterSection = () => (
