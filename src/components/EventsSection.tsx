@@ -5,7 +5,7 @@ const events = [
   {
     icon: PartyPopper,
     title: "Birthday Celebrations",
-    desc: "Make your birthday unforgettable with a private beachfront dinner under the stars. Our team arranges personalized decorations, custom cakes, and a dedicated dining area right on the beach sand — the most magical birthday venue in Koh Samui.",
+    desc: "Make your birthday unforgettable with a private beachfront dinner under the stars. Our team arranges personalized decorations, custom cakes, and a dedicated dining area right on the beach sand — the most magical birthday venue on Koh Samui.",
   },
   {
     icon: Heart,
@@ -44,7 +44,7 @@ const EventsSection = () => (
         </h2>
         <div className="divider-gold mb-6" />
         <p className="font-body text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
-          Looking for the perfect event venue in Koh Samui? Cherish Samui Restaurant and Bar transforms
+          Looking for the perfect event venue on Koh Samui? Cherish Samui Restaurant and Bar transforms
           birthdays, weddings or proposals, and private celebrations into extraordinary
           beachfront life time experiences. With the sound of the waves, a breathtaking sunset,
           and our dedicated events team, every occasion becomes truly unforgettable.

@@ -8,27 +8,27 @@ import {
 
 const faqs = [
   {
-    q: "What is the best beachfront restaurant in Koh Samui?",
-    a: "Cherish Restaurant & Bar Restaurant and Bar is widely considered one of the best beachfront restaurants in Koh Samui thanks to its sunset views, fresh seafood, and relaxed atmosphere.",
+    q: "What is the best beachfront restaurant on Koh Samui?",
+    a: "Cherish Restaurant & Bar Restaurant and Bar is widely considered one of the best beachfront restaurants on Koh Samui thanks to its sunset views, fresh seafood, and relaxed atmosphere.",
   },
   {
-    q: "Where can I have a romantic dinner in Koh Samui?",
-    a: "Cherish Restaurant & Bar Restaurant and Bar offers one of the most romantic dining experiences in Koh Samui, especially during sunset by the beach.",
+    q: "Where can I have a romantic dinner on Koh Samui?",
+    a: "Cherish Restaurant & Bar Restaurant and Bar offers one of the most romantic dining experiences on Koh Samui, especially during sunset by the beach.",
   },
   {
     q: "Do I need to book in advance?",
-    a: "Yes, reservations are recommended, especially for sunset dinner at our beachfront restaurant in Koh Samui.",
+    a: "Yes, reservations are recommended, especially for sunset dinner at our beachfront restaurant on Koh Samui.",
   },
   {
     q: "What kind of food do you serve?",
-    a: "We serve Thai cuisine, fresh seafood, and international dishes, making us a top seafood restaurant in Koh Samui.",
+    a: "We serve Thai cuisine, fresh seafood, and international dishes, making us a top seafood restaurant on Koh Samui.",
   },
   {
     q: "Is your restaurant near Fisherman's Village?",
     a: "We are located in Bophut, approximately 11 km from Fisherman's Village — about a 15-minute drive. It's an easy trip, and many guests visit the village before dinner at Cherish Restaurant & Bar Restaurant and Bar.",
   },
   {
-    q: "What time is best for sunset dinner in Koh Samui?",
+    q: "What time is best for sunset dinner on Koh Samui?",
     a: "The best time is between 5:30 PM and 7:00 PM for a perfect sunset dining experience.",
   },
 ];

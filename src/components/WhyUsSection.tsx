@@ -6,12 +6,12 @@ const features = [
     icon: Waves,
     title: "Beachfront Dining",
     desc: "Panoramic ocean views from every table, with the sound of waves as your soundtrack.",
-    detail: "Unlike many restaurants in Koh Samui that claim ocean views, Cherish Samui Restaurant & Bar sits directly on the sand. Your table is steps from the water's edge, with panoramic views of the Gulf of Thailand stretching to the horizon.",
+    detail: "Unlike many restaurants on Koh Samui that claim ocean views, Cherish Samui Restaurant & Bar sits directly on the sand. Your table is steps from the water's edge, with panoramic views of the Gulf of Thailand stretching to the horizon.",
   },
   {
     icon: Sunset,
     title: "Best Sunset Spot",
-    desc: "Consistently rated as one of the best sunset restaurants in Koh Samui.",
+    desc: "Consistently rated as one of the best sunset restaurants on Koh Samui.",
     detail: "Our west-facing beachfront offers Bangpor’s most spectacular sunset panorama. Arrive at 5:30 PM to watch the sky transform from golden amber to deep crimson — a nightly show that makes dinner at Cherish truly magical.",
   },
   {
