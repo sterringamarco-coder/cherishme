@@ -75,14 +75,19 @@ const Navbar = () => {
         scrolled ? "bg-background/95 backdrop-blur-md shadow-gold" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between py-3 px-4">
-        <a href="/" onClick={handleLogo} className="flex items-center">
+      <div className="container mx-auto relative flex items-center justify-between py-3 px-4">
+        <a
+          href="/"
+          onClick={handleLogo}
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-auto"
+        >
           <img
             src={assetUrl(logoAsset)}
             alt="Cherish Restaurant & Bar"
-            className="h-8 sm:h-10 md:h-12 w-auto max-w-[140px] sm:max-w-none object-contain"
+            className="h-8 sm:h-10 md:h-12 w-auto max-w-[50vw] object-contain"
           />
         </a>
+        <div className="flex-1 md:hidden" aria-hidden="true" />
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
