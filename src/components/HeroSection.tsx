@@ -31,7 +31,7 @@ const HeroSection = () => (
         transition={{ duration: 0.8 }}
         className="text-primary font-body text-xs tracking-[0.35em] uppercase mb-6"
       >
-        Bophut · Koh Samui · Thailand
+        Bangpor · Koh Samui · Thailand
       </motion.p>
 
       <motion.h1

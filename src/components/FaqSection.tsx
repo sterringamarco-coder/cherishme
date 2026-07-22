@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "Is your restaurant near Fisherman's Village?",
-    a: "We are located in Bophut, approximately 11 km from Fisherman's Village — about a 15-minute drive. It's an easy trip, and many guests visit the village before dinner at Cherish Restaurant & Bar Restaurant and Bar.",
+    a: "We are located in Bangpor, approximately 11 km from Fisherman's Village — about a 15-minute drive. It's an easy trip, and many guests visit the village before dinner at Cherish Restaurant & Bar Restaurant and Bar.",
   },
   {
     q: "What time is best for sunset dinner on Koh Samui?",
