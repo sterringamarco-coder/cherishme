@@ -40,7 +40,7 @@ const HeroSection = () => (
         transition={{ duration: 1, delay: 0.2 }}
         className="font-heading text-4xl md:text-6xl lg:text-7xl font-light leading-tight mb-6"
       >
-        Best Beachfront Restaurant in{" "}
+        Best Beachfront Restaurant on{" "}
         <span className="text-gradient-gold">Koh Samui</span> – Cherish Restaurant & Bar Restaurant
       </motion.h1>
 
