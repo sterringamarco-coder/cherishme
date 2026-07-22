@@ -38,7 +38,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
-        className="font-heading text-4xl md:text-6xl lg:text-7xl font-light leading-tight mb-6"
+        className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light leading-tight mb-6 break-words"
       >
         Best Beachfront Restaurant on{" "}
         <span className="text-gradient-gold">Koh Samui</span> – Cherish Restaurant & Bar Restaurant
