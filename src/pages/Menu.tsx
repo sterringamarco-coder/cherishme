@@ -36,7 +36,7 @@ const Menu = () => (
             className="inline-flex items-center gap-2 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Homepage
+            Back
           </Link>
           <GrabButton />
         </div>
@@ -62,7 +62,7 @@ const Menu = () => (
             className="inline-flex items-center gap-2 font-body text-sm tracking-[0.2em] uppercase text-primary border border-primary px-6 py-3 hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Homepage
+            Back
           </Link>
           <GrabButton />
         </div>
