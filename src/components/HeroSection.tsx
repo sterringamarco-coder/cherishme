@@ -81,12 +81,12 @@ const HeroSection = () => (
         >
           Book a Table
         </a>
-        <a
-          href="/menu"
+        <Link
+          to="/menu"
           className="bg-white text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-primary hover:text-primary-foreground transition-colors shadow-sm"
         >
           View Menu
-        </a>
+        </Link>
       </motion.div>
 
       <motion.a
