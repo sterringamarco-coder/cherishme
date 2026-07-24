@@ -89,12 +89,12 @@ const FooterSection = () => (
       <p className="font-body text-xs text-muted-foreground mt-2">
         Made by{" "}
         <a
-          href="https://siam.digital.marketing.com"
+          href="https://siam-digital-marketing.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:opacity-80 transition-opacity"
         >
-          Siam.Digital.Marketing.com
+          Siam-Digital-Marketing.com
         </a>
       </p>
     </div>
