@@ -21,6 +21,7 @@ import slowBraisedBeef from "@/assets/slow-braised-beef.jpg.asset.json";
 import { assetUrl } from "@/lib/assetUrl";
 
 const dishes = [
+  { src: assetUrl(slowBraisedBeef), alt: "Slow braised beef with mashed potatoes and edamame" },
   { src: surfTurf, alt: "Surf and turf steak with shrimp" },
   { src: ribs, alt: "Slow-cooked BBQ pork ribs" },
   { src: scallops, alt: "Seared scallops with citrus glaze" },
