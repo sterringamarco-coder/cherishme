@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import heroAsset from "@/assets/cherish-bar-restaurant-2026.jpeg.asset.json";
 import { assetUrl } from "@/lib/assetUrl";
 const heroImg = assetUrl(heroAsset);
@@ -80,12 +81,12 @@ const HeroSection = () => (
         >
           Book a Table
         </a>
-        <a
-          href="/menu"
+        <Link
+          to="/menu"
           className="bg-white text-primary-foreground px-10 py-4 text-sm font-semibold tracking-widest uppercase rounded-sm hover:bg-primary hover:text-primary-foreground transition-colors shadow-sm"
         >
           View Menu
-        </a>
+        </Link>
       </motion.div>
 
       <motion.a
